@@ -1,0 +1,103 @@
+﻿<UserControl x:Class="DefaultPluginModule.EffectView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DefaultPluginModule"
+             xmlns:vt="clr-namespace:DefaultPluginModule.Convert"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="340"
+             SizeChanged="OnSizeChanged">
+
+    <UserControl.Resources>
+        <vt:BoolToVisibleConvert x:Key="vtBoolVisable"/>
+        <vt:OpacityConvert x:Key="vtOpacity"/>
+        <vt:TimeStringConvert x:Key="vtTime"/>
+        <vt:DateStringConvert x:Key="vtDate"/>
+        <vt:ColorBrushConverter x:Key="vtColorBrush"/>
+
+        <vt:FontNameConvert x:Key="vtFontName"/>
+        <vt:FontSizeConvert x:Key="vtFontSize"/>
+        <vt:FontBoldConvert x:Key="vtFontBold"/>
+        <vt:FontItalicConvert x:Key="vtFontItalic"/>
+    </UserControl.Resources>
+    <Grid x:Name="plugin">
+       <StackPanel x:Name="diyInfo" HorizontalAlignment="Center" 
+                    VerticalAlignment="Center" Margin="{Binding ShowDiyMargin}">
+           <TextBlock x:Name="DiyTxt" Text="{Binding sDiyText}"
+                      Visibility="{Binding bShowDiyText, Converter={StaticResource vtBoolVisable}}"
+                      Opacity="{Binding iDiyOpacity,Converter={StaticResource vtOpacity}}" 
+                      Foreground="{Binding txtColor, Converter={StaticResource vtColorBrush}}"
+                      FontFamily="{Binding showDiyfont,Converter={StaticResource vtFontName}}"
+                      FontWeight="{Binding showDiyfont,Converter={StaticResource vtFontBold}}"
+                      FontStyle="{Binding showDiyfont,Converter={StaticResource vtFontItalic}}"
+                      FontSize="{Binding fDiyFontSize}" 
+                      TextAlignment="Center" >
+               <TextBlock.Effect>
+                <DropShadowEffect Color="{Binding ShadowColor}" 
+                                  Direction="{Binding iShadowDirection}" 
+                                  ShadowDepth="{Binding iShadowDepth}" 
+                                  BlurRadius="{Binding iShadowBlurRadius}"
+                                  Opacity="{Binding iShadowOpacity,Converter={StaticResource vtOpacity}}" />
+               </TextBlock.Effect>
+               <!--<TextBlock.Text>
+                    <MultiBinding Converter="{StaticResource vtDate}">
+                        <Binding Path="CurDateTime" />
+                        <Binding Path="sDiyText" />
+                    </MultiBinding>
+                </TextBlock.Text>-->
+            </TextBlock>
+    </StackPanel>
+    <StackPanel x:Name="plugInfo" Orientation="Vertical" HorizontalAlignment="Center" 
+                    VerticalAlignment="Center" Margin="{Binding ShowMargin}">
+        <TextBlock  x:Name="TimeTxt" Text="{Binding sShowDateTime1}" 
+                    Opacity="{Binding iOpacity,Converter={StaticResource vtOpacity}}"                    
+                    Foreground="{Binding TimeColor,Converter={StaticResource vtColorBrush}}"                          
+                    FontFamily="{Binding showfont,Converter={StaticResource vtFontName}}"
+                    FontWeight="{Binding showfont,Converter={StaticResource vtFontBold}}"
+                    FontStyle="{Binding showfont,Converter={StaticResource vtFontItalic}}"
+                    FontSize="{Binding fTimeFontSize}"
+                    TextAlignment="Center">
+                <!--<TextBlock.Text>
+                    <MultiBinding Converter="{StaticResource vtTime}">
+                        <Binding Path="CurDateTime" />
+                        <Binding Path="sTimeFormat" />
+                    </MultiBinding>
+                </TextBlock.Text>-->
+                <TextBlock.Effect>
+                    <DropShadowEffect Color="{Binding ShadowColor}" 
+                                      Direction="{Binding iShadowDirection}" 
+                                      ShadowDepth="{Binding iShadowDepth}" 
+                                      Opacity="{Binding iShadowOpacity,Converter={StaticResource vtOpacity}}"
+                                      BlurRadius="{Binding iShadowBlurRadius}"/>
+                </TextBlock.Effect>
+            </TextBlock>
+            <TextBlock x:Name="DateTxt" Text="{Binding sShowDateTime2}" 
+                       Opacity="{Binding iOpacity,Converter={StaticResource vtOpacity}}"                        
+                       Foreground="{Binding DateColor, Converter={StaticResource vtColorBrush}}"
+                       FontFamily="{Binding showfont,Converter={StaticResource vtFontName}}"
+                       FontWeight="{Binding showfont,Converter={StaticResource vtFontBold}}"
+                       FontStyle="{Binding showfont,Converter={StaticResource vtFontItalic}}"
+                       FontSize="{Binding fDateFontSize}"
+                       TextAlignment="Center">
+                <!--<TextBlock.Text>
+                    <MultiBinding Converter="{StaticResource vtDate}">
+                        <Binding Path="CurDateTime" />
+                        <Binding Path="sDateFormat" />
+                        <Binding Path="bShowWeek" />
+                        <Binding Path="iWeekFormat" />
+                    </MultiBinding>
+                </TextBlock.Text>-->
+                <TextBlock.Effect>
+                    <DropShadowEffect Color="{Binding ShadowColor}" 
+                                      Direction="{Binding iShadowDirection}" 
+                                      ShadowDepth="{Binding iShadowDepth}" 
+                                      BlurRadius="{Binding iShadowBlurRadius}"
+                                      Opacity="{Binding iShadowOpacity,Converter={StaticResource vtOpacity}}" />
+                </TextBlock.Effect>
+            </TextBlock>
+           
+        </StackPanel>
+
+    </Grid>
+</UserControl>

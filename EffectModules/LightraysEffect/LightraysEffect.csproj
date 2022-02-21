@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>LightraysEffect</AssemblyName>
+    <RootNamespace>LightraysEffect</RootNamespace>
+  </PropertyGroup>
+
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\bin\Release\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\1.jpg" />
+    <None Remove="Resources\config.json" />
+    <None Remove="Resources\Effect\BrightBlursEffect.ps" />
+    <None Remove="Resources\Effect\HueBlursEffect.ps" />
+    <None Remove="Resources\Effect\HueBlursEffectEffect.ps" />
+    <None Remove="Resources\Effect\Lightrays.ps" />
+    <None Remove="Resources\Effect\SimpleSnow.ps" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EffectConfigModule">
+      <HintPath>..\..\bin\Assemblies\EffectConfigModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\1.jpg" />
+    <Resource Include="Resources\config.json" />
+    <Resource Include="Resources\Effect\BrightBlursEffect.ps" />
+    <Resource Include="Resources\Effect\HueBlursEffect.ps" />
+    <Resource Include="Resources\Effect\Lightrays.ps" />
+  </ItemGroup>
+  <ProjectExtensions><VisualStudio><UserProperties resources_4config_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)LightraysEffect.dll&quot;&#xD;&#xA;copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)EffectModule.dll&quot;" />
+  </Target>
+</Project>

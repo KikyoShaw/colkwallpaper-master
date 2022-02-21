@@ -1,0 +1,95 @@
+{
+  "ImageBk": {
+    "value": "",
+    "filter": "*.jpg|*.png|*.bmp",
+    "text": "Image(文件选择)",
+    "type": "folderSelect"
+  },
+
+  "ImageStrength": {
+    "type": "dropdown",
+    "value": 3,
+    "text": "ImageStrength(图片拉伸模式)",
+    "items": [
+      "None",
+      "Fill",
+      "Uniform",
+      "UniformToFill"
+    ]
+  },
+
+  "speed": {
+    "min": 1,
+    "max": 100,
+    "tick": 1,
+    "text": "速度",
+    "type": "slider",
+    "value": 10
+  },
+
+  "alpha": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "alpha(透明度)",
+    "type": "slider",
+    "value": 65
+  },
+
+  "orgX": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "显示位置",
+    "type": "slider",
+    "value": 50
+  },
+
+  "color": {
+    "text": "Color(颜色)",
+    "type": "color",
+    "value": "#ffffff"
+  },
+
+  "userChangeColor": {
+    "type": "checkbox",
+    "value": true,
+    "text": "UseCangeColor(颜色变化)"
+  },
+
+  "changeColor": {
+    "text": "CangeColor(变化颜色)",
+    "type": "color",
+    "value": "#F7FEC0"
+  },
+
+  "changeColorSpeed": {
+    "min": 1,
+    "max": 100,
+    "tick": 1,
+    "text": "changeColorSpeed(颜色变化速度)",
+    "type": "slider",
+    "value": 3
+  },
+
+  "DropDown": {
+    "type": "checkbox",
+    "value": false,
+    "text": "底部"
+  },
+
+  "breathe": {
+    "type": "checkbox",
+    "value": true,
+    "text": "breathe(呼吸)"
+  },
+
+  "breatheSpeed": {
+    "min": 1,
+    "max": 100,
+    "tick": 1,
+    "text": "breatheSpeed(呼吸速度)",
+    "type": "slider",
+    "value": 5
+  }
+}

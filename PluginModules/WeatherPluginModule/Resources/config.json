@@ -1,0 +1,168 @@
+{
+  "title01": {
+    "type": "title",
+    "value": 0,
+    "text": "WeatherPlugin Setting[天气插件设置]"
+  },
+
+
+  "zIndex": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "zIndex(显示优先级)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "title0": {
+    "type": "title",
+    "value": 0,
+    "text": "WeatherOption(天气参数)"
+  },
+  
+
+  "BackColor": {
+    "type": "color",
+    "text": "BackColor(背景颜色)",
+    "value": "#FF303030"
+  },
+  "BackOpacity": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "BackOpacity(透明度)",
+    "type": "slider",
+    "value": 90
+  },
+
+
+  "HorizontalOffset": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "HorizontalOffset(水平偏移)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "VerticalOffset": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "VerticalOffset(水平垂直)",
+    "type": "slider",
+    "value": 80
+  },
+  
+  "ShowWidth": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "ShowWidth(显示宽度)",
+    "type": "slider",
+    "value": 430
+  },
+
+  "ShowHeight": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "ShowHeight(显示高度)",
+    "type": "slider",
+    "value": 161
+  },
+  
+
+  "StyleId": {
+    "min": 0,
+    "max": 200,
+    "tick": 1,
+    "text": "StyleId(显示风格)",
+    "type": "slider",
+    "value": 14
+  },
+
+  "CityCode": {
+    "type": "label",
+    "value": "",
+    "text": "cityCode(城市拼音 重庆:chongqing)"
+  },
+
+  "FontColor": {
+    "type": "color",
+    "text": "Color(字体颜色)",
+    "value": "#FFFFFFFF"
+  },
+
+  "FontSize": {
+    "min": 12,
+    "max": 100,
+    "tick": 1,
+    "text": "FontSize(字体大小)",
+    "type": "slider",
+    "value": 12
+  },
+
+  "Opacity": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "Opacity(透明度)",
+    "type": "slider",
+    "value": 100
+  },
+
+
+  "split3": {
+    "type": "split",
+    "value": 0,
+    "text": ""
+  },
+  "title2": {
+    "type": "title",
+    "value": 0,
+    "text": "ShadowOption(阴影参数)"
+  },
+
+  "ShadowColor": {
+    "type": "color",
+    "text": "ShadowColor(阴影颜色)",
+    "value": "#FF000000"
+  },
+  "ShadowDirection": {
+    "min": 0,
+    "max": 360,
+    "tick": 1,
+    "text": "ShadowDirection(阴影方向)",
+    "type": "slider",
+    "value": 0
+  },
+  "ShadowDepth": {
+    "min": -10,
+    "max": 10,
+    "tick": 1,
+    "text": "ShadowDepth(阴影深度)",
+    "type": "slider",
+    "value": 3
+  },
+
+  "ShadowOpacity": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "ShadowDepth(阴影透明度)",
+    "type": "slider",
+    "value": 100
+  },
+
+  "ShadowBlurRadius": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "ShadowBlurRadius(阴影模糊)",
+    "type": "slider",
+    "value": 5
+  },
+
+}

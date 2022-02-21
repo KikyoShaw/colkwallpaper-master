@@ -1,0 +1,581 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ColkEffectClient/1.0.0": {
+        "dependencies": {
+          "CefSharp.Wpf.HwndHost": "90.6.50",
+          "CefSharp.Wpf.NETCore": "90.6.50",
+          "ColkFX": "1.0.0",
+          "EffectConfigModule": "1.0.0",
+          "NAudio": "2.0.1",
+          "Newtonsoft.Json": "12.0.3",
+          "chromiumembeddedframework.runtime.win-x64": "90.6.5",
+          "chromiumembeddedframework.runtime.win-x86": "90.6.5"
+        },
+        "runtime": {
+          "ColkEffectClient.dll": {}
+        }
+      },
+      "CefSharp.Common.NETCore/90.6.50": {
+        "dependencies": {
+          "System.Text.Json": "5.0.0",
+          "chromiumembeddedframework.runtime": "90.6.5"
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/lib/netcoreapp3.1/CefSharp.Core.Runtime.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "90.6.50.0",
+            "fileVersion": "90.6.50.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/CefSharp.Core.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "90.6.50.0",
+            "fileVersion": "90.6.50.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/CefSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "90.6.50.0",
+            "fileVersion": "90.6.50.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/Ijwhost.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "fileVersion": "3.100.1421.16502"
+          },
+          "runtimes/win-x86/lib/netcoreapp3.1/CefSharp.Core.Runtime.dll": {
+            "rid": "win-x86",
+            "assetType": "runtime",
+            "assemblyVersion": "90.6.50.0",
+            "fileVersion": "90.6.50.0"
+          },
+          "runtimes/win-x86/lib/netcoreapp3.1/CefSharp.Core.dll": {
+            "rid": "win-x86",
+            "assetType": "runtime",
+            "assemblyVersion": "90.6.50.0",
+            "fileVersion": "90.6.50.0"
+          },
+          "runtimes/win-x86/lib/netcoreapp3.1/CefSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "runtime",
+            "assemblyVersion": "90.6.50.0",
+            "fileVersion": "90.6.50.0"
+          },
+          "runtimes/win-x86/lib/netcoreapp3.1/Ijwhost.dll": {
+            "rid": "win-x86",
+            "assetType": "runtime",
+            "fileVersion": "3.100.1421.16502"
+          },
+          "runtimes/win-x64/native/CefSharp.BrowserSubprocess.Core.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "assemblyVersion": "90.6.50.0",
+            "fileVersion": "90.6.50.0"
+          },
+          "runtimes/win-x64/native/CefSharp.BrowserSubprocess.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "assemblyVersion": "90.6.50.0",
+            "fileVersion": "90.6.50.0"
+          },
+          "runtimes/win-x64/native/CefSharp.BrowserSubprocess.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "90.6.50.0"
+          },
+          "runtimes/win-x64/native/CefSharp.BrowserSubprocess.runtimeconfig.json": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/CefSharp.BrowserSubprocess.Core.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "assemblyVersion": "90.6.50.0",
+            "fileVersion": "90.6.50.0"
+          },
+          "runtimes/win-x86/native/CefSharp.BrowserSubprocess.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "assemblyVersion": "90.6.50.0",
+            "fileVersion": "90.6.50.0"
+          },
+          "runtimes/win-x86/native/CefSharp.BrowserSubprocess.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "90.6.50.0"
+          },
+          "runtimes/win-x86/native/CefSharp.BrowserSubprocess.runtimeconfig.json": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "CefSharp.Wpf.HwndHost/90.6.50": {
+        "dependencies": {
+          "CefSharp.Common.NETCore": "90.6.50"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/CefSharp.Wpf.HwndHost.dll": {
+            "assemblyVersion": "90.6.50.0",
+            "fileVersion": "90.6.50.0"
+          }
+        }
+      },
+      "CefSharp.Wpf.NETCore/90.6.50": {
+        "dependencies": {
+          "CefSharp.Common.NETCore": "90.6.50"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/CefSharp.Wpf.dll": {
+            "assemblyVersion": "90.6.50.0",
+            "fileVersion": "90.6.50.0"
+          }
+        }
+      },
+      "chromiumembeddedframework.runtime/90.6.5": {},
+      "chromiumembeddedframework.runtime.win-x64/90.6.5": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/chrome_100_percent.pak": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/chrome_200_percent.pak": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/chrome_elf.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "90.0.4430.93"
+          },
+          "runtimes/win-x64/native/d3dcompiler_47.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "10.0.17134.12"
+          },
+          "runtimes/win-x64/native/icudtl.dat": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libEGL.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2.1.15048.0"
+          },
+          "runtimes/win-x64/native/libGLESv2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2.1.15048.0"
+          },
+          "runtimes/win-x64/native/libcef.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "90.6.5.0"
+          },
+          "runtimes/win-x64/native/resources.pak": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/snapshot_blob.bin": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/v8_context_snapshot.bin": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "chromiumembeddedframework.runtime.win-x86/90.6.5": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/chrome_100_percent.pak": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/chrome_200_percent.pak": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/chrome_elf.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "90.0.4430.93"
+          },
+          "runtimes/win-x86/native/d3dcompiler_47.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "10.0.17134.12"
+          },
+          "runtimes/win-x86/native/icudtl.dat": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libEGL.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "2.1.15048.0"
+          },
+          "runtimes/win-x86/native/libGLESv2.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "2.1.15048.0"
+          },
+          "runtimes/win-x86/native/libcef.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "90.6.5.0"
+          },
+          "runtimes/win-x86/native/resources.pak": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/snapshot_blob.bin": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/v8_context_snapshot.bin": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.31.10800"
+          }
+        }
+      },
+      "NAudio/2.0.1": {
+        "dependencies": {
+          "NAudio.Asio": "2.0.0",
+          "NAudio.Core": "2.0.0",
+          "NAudio.Midi": "2.0.1",
+          "NAudio.Wasapi": "2.0.0",
+          "NAudio.WinForms": "2.0.1",
+          "NAudio.WinMM": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "NAudio.Asio/2.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "NAudio.Core": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Asio.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "NAudio.Core/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "NAudio.Midi/2.0.1": {
+        "dependencies": {
+          "NAudio.Core": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "NAudio.Wasapi/2.0.0": {
+        "dependencies": {
+          "NAudio.Core": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "NAudio.WinForms/2.0.1": {
+        "dependencies": {
+          "NAudio.WinMM": "2.0.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/NAudio.WinForms.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "NAudio.WinMM/2.0.1": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "NAudio.Core": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.WinMM.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {},
+      "System.Text.Json/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "ColkFX/1.0.0": {
+        "runtime": {
+          "ColkFX.dll": {}
+        }
+      },
+      "EffectConfigModule/1.0.0": {
+        "dependencies": {
+          "NAudio": "2.0.1",
+          "PixiEditor.ColorPicker": "3.1.0"
+        },
+        "runtime": {
+          "EffectConfigModule.dll": {}
+        }
+      },
+      "PixiEditor.ColorPicker/3.1.0": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.31"
+        },
+        "runtime": {
+          "ColorPicker.dll": {}
+        }
+      },
+      "System.Management/4.0.1.0": {
+        "runtime": {
+          "System.Management.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ColkEffectClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CefSharp.Common.NETCore/90.6.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5FLCd+wkXPJFDm4hvuvdNq4JAAXYJAf9N0TMN8lPWH4/pCmV6tV3sMupkDHWb9T87JmCa0RXlzBWzmPkeONF2g==",
+      "path": "cefsharp.common.netcore/90.6.50",
+      "hashPath": "cefsharp.common.netcore.90.6.50.nupkg.sha512"
+    },
+    "CefSharp.Wpf.HwndHost/90.6.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5NRRVk7Bggi/RZpQoLMHNuOJabZiz5sjqL8UMb5fwRJbanPPpQ7/VrjVV6gczzCCFxC/Yi6LRxwtiwIVHG+u+g==",
+      "path": "cefsharp.wpf.hwndhost/90.6.50",
+      "hashPath": "cefsharp.wpf.hwndhost.90.6.50.nupkg.sha512"
+    },
+    "CefSharp.Wpf.NETCore/90.6.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HMzbrDEhV+oED673/g17H1/z70jYiFG2w1feZci42YKfKi62vf0skEDO/q6JFyOHf18hhaiJ++InezM+VPGnMA==",
+      "path": "cefsharp.wpf.netcore/90.6.50",
+      "hashPath": "cefsharp.wpf.netcore.90.6.50.nupkg.sha512"
+    },
+    "chromiumembeddedframework.runtime/90.6.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VowCmuGiJSqaB1H1EUiDJXn1bygo6tB/wn3kCKge/9FffIVMGAa7+oLw61DMUxEFXLPhQl/nwQwxDQ7gGeHznw==",
+      "path": "chromiumembeddedframework.runtime/90.6.5",
+      "hashPath": "chromiumembeddedframework.runtime.90.6.5.nupkg.sha512"
+    },
+    "chromiumembeddedframework.runtime.win-x64/90.6.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kC5Ql8iXyfvFif/0/MLcSr5rqrjzV7rK715VGT+7u/xPsgW6pwTdgNpZcO/dhbx7s79ryQpOo5LpP7cBa77FYA==",
+      "path": "chromiumembeddedframework.runtime.win-x64/90.6.5",
+      "hashPath": "chromiumembeddedframework.runtime.win-x64.90.6.5.nupkg.sha512"
+    },
+    "chromiumembeddedframework.runtime.win-x86/90.6.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w/CbVmnJ9/M+NzdXz2ssRtLnGTMe28RXzDfDFiQMS4+yxmsjBs7gEqZo/s1mlMf7WqpbedCRNDR7PNKbNAL+8g==",
+      "path": "chromiumembeddedframework.runtime.win-x86/90.6.5",
+      "hashPath": "chromiumembeddedframework.runtime.win-x86.90.6.5.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LZpuf82ACZWldmfMuv3CTUMDh3o0xo0uHUaybR5HgqVLDBJJ9RZLykplQ/bTJd0/VDt3EhD4iDgUgbdIUAM+Kg==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.31",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512"
+    },
+    "NAudio/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QTbkeWOC9IBRiq2rvyFnm47ro4HYZQXJQMrhgAD1BwbkUzH+NMt+2ayLDnAJNJQu6V69Of6KZSYyDfU2Pr+dzQ==",
+      "path": "naudio/2.0.1",
+      "hashPath": "naudio.2.0.1.nupkg.sha512"
+    },
+    "NAudio.Asio/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Pd51zAS2L3+MK/dJ5VrInz6ggHUie9j1qCXysXL3Vj53p9A2RxjpIZafuyba2ZdeMKaOMOHXdtkUqFdKqVMQg==",
+      "path": "naudio.asio/2.0.0",
+      "hashPath": "naudio.asio.2.0.0.nupkg.sha512"
+    },
+    "NAudio.Core/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-knmGOIYbzn9ZGkFcVs5d3zEYvi50jVriyEirVtAHjkcDoo2ziK32bZb7KkFARLD4lhCGkqp6uT0+0fc4JIfQcw==",
+      "path": "naudio.core/2.0.0",
+      "hashPath": "naudio.core.2.0.0.nupkg.sha512"
+    },
+    "NAudio.Midi/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A5pQerGAmtNNfSMkGaRacqBJG1xg4bjQE0XaxsO3/rhEE80NLUN6gQm+x/m7ZGbSoPUB5fav2jW3tZkdPadZ7w==",
+      "path": "naudio.midi/2.0.1",
+      "hashPath": "naudio.midi.2.0.1.nupkg.sha512"
+    },
+    "NAudio.Wasapi/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7ES+jfZyOooBp86gql9BZ/OjKFmGfLaSLCtJagtCYiRGxfauHp4hXyeuwxS2mPLBxBGxBo9oGThN6y3QY+/w/w==",
+      "path": "naudio.wasapi/2.0.0",
+      "hashPath": "naudio.wasapi.2.0.0.nupkg.sha512"
+    },
+    "NAudio.WinForms/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SOyXRsLePAvIWG20OMRHiUkNijme6J28DKBVesmhdfh4i7OKgkvGLN19eT+vPfXr97yhMudULsyYp9Niz8/a+g==",
+      "path": "naudio.winforms/2.0.1",
+      "hashPath": "naudio.winforms.2.0.1.nupkg.sha512"
+    },
+    "NAudio.WinMM/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i7Da/gCqvwWvETFBRkuwCelSXEK5rPG7pTaqCU9aXFRiO0p7lwHjm/+k2lOWLmRGUJdLm/VSDO6Vknacnb6mSg==",
+      "path": "naudio.winmm/2.0.1",
+      "hashPath": "naudio.winmm.2.0.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "path": "system.security.accesscontrol/4.7.0",
+      "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
+      "path": "system.text.json/5.0.0",
+      "hashPath": "system.text.json.5.0.0.nupkg.sha512"
+    },
+    "ColkFX/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EffectConfigModule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PixiEditor.ColorPicker/3.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Management/4.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

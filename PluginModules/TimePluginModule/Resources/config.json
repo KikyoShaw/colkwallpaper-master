@@ -1,0 +1,295 @@
+{
+  "title01": {
+    "type": "title",
+    "value": 0,
+    "text": "TimePlugin Setting[时间插件设置]"
+  },
+
+
+  "title3": {
+    "type": "title",
+    "value": 0,
+    "text": "DateTimeSetting (日期/时间設置)"
+  },
+
+  "ShowTime": {
+    "type": "checkbox",
+    "value": true,
+    "text": "ShowTime(显示时间)"
+  },
+
+  "ShowDate": {
+    "type": "checkbox",
+    "value": true,
+    "text": "ShowDate(显示日期)"
+  },
+
+  "ShowWeek": {
+    "type": "checkbox",
+    "value": true,
+    "text": "ShowWeek(显示星期)"
+  },
+  "ShowAnte": {
+    "type": "checkbox",
+    "value": false,
+    "text": "ShowAnte(显示上下午)"
+  },
+  "FirstTime": {
+    "type": "checkbox",
+    "value": true,
+    "text": "FirstTime(优先显示时间)"
+  },
+  "FirstAnte": {
+    "type": "checkbox",
+    "value": false,
+    "text": "FirstAnte(优先显示上下午)"
+  },
+
+  "HorizontalOffset": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "HorizontalOffset(水平偏移)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "VerticalOffset": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "VerticalOffset(水平垂直)",
+    "type": "slider",
+    "value": -400
+  },
+  "ShowFont": {
+    "type": "font",
+    "value": "Microsoft YaHei UI, 25pt",
+    "text": "Fonst(选择字体)"
+  },
+  "TimeFontSize": {
+    "min": 10,
+    "max": 300,
+    "tick": 1,
+    "text": "Line1FontSize(第一行字体大小)",
+    "type": "slider",
+    "value": 110
+  },
+  "DateFontSize": {
+    "min": 10,
+    "max": 300,
+    "tick": 1,
+    "text": "Line2FontSize(第二行字体大小)",
+    "type": "slider",
+    "value": 40
+  },
+  "TimeFontColor": {
+    "type": "color",
+    "text": "Line1Color(第一行字体颜色)",
+    "value": "#FFFFFF"
+  },
+  "DateFontColor": {
+    "type": "color",
+    "text": "Line2Color(第二行字体颜色)",
+    "value": "#FFFFFF"
+  },
+
+  "FontOpacity": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "Opacity(字体透明度)",
+    "type": "slider",
+    "value": 100
+  },
+
+
+  "TimeFomrat": {
+    "type": "dropdown",
+    "value": 3,
+    "text": "TimeFomrat(时间/日期格式)",
+    "items": [
+      "自定义",
+      "HH:mm:ss",
+      "h:mm:ss",
+      "HH:mm",
+      "h:mm",
+    ]
+  },
+
+  "TimeFomratText": {
+    "type": "label",
+    "value": "HH:mm:ss tt",
+    "text": "TimeFomratText(时间格式)"
+  },
+
+  "DateFomrat": {
+    "type": "dropdown",
+    "value": 4,
+    "text": "DateFomrat(日期/时间格式)",
+    "items": [
+      "自定义",
+      "yyyy/MM/dd",
+      "yyyy-MM-dd",
+      "yyyy年MM月dd日",
+      "MM-dd",
+      "MM/dd",
+      "MM月dd日",
+    ]
+  },
+
+  "DateFomratText": {
+    "type": "label",
+    "value": "yyyy/MM/dd",
+    "text": "日期格式"
+  },
+
+  "WeekFomrat": {
+    "type": "dropdown",
+    "value": 1,
+    "text": "TimeFomrat(时间格式)",
+    "items": [
+      "Default(系统默认)",
+      "Full.English(Monday)",
+      "Abb.English(Mon)",
+      "Chinese(星期一)",
+    ]
+  },
+  "AnteFomrat": {
+    "type": "dropdown",
+    "value": 1,
+    "text": "TimeFomrat(时间格式)",
+    "items": [
+      "Default(系统默认)",
+      "AM/PM",
+      "Am/Pm",
+      "am/pm",
+      "A./P.",
+      "上午/下午",
+    ]
+  },
+
+  "split3": {
+    "type": "split",
+    "value": 0,
+    "text": ""
+  },
+  "title0": {
+    "type": "title",
+    "value": 0,
+    "text": "TextOption(文案参数)"
+  },
+
+  "ShowDiyText": {
+    "type": "checkbox",
+    "value": false,
+    "text": "ShowDiyText(显示自定义文字)"
+  },
+
+
+  "DiyHorizontalOffset": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "HorizontalOffset(水平偏移)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "DiyVerticalOffset": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "VerticalOffset(水平垂直)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "DiyText": {
+    "type": "label",
+    "value": "Hello",
+    "text": "DiyText(自定义文字)"
+  },
+
+  "DiyFontColor": {
+    "type": "color",
+    "text": "DiyColor(diy字体颜色)",
+    "value": "#FFFFFF"
+  },
+
+  "DiyShowFont": {
+    "type": "font",
+    "value": "Microsoft YaHei UI, 25pt",
+    "text": "Fonst(选择字体)"
+  },
+  "DiyFontSize": {
+    "min": 10,
+    "max": 300,
+    "tick": 1,
+    "text": "DiyTextFontSize(自定义文案字体大小)",
+    "type": "slider",
+    "value": 100
+  },
+
+  "DiyFontOpacity": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "DiyOpacity(diy字体透明度)",
+    "type": "slider",
+    "value": 100
+  },
+
+
+  "split3": {
+    "type": "split",
+    "value": 0,
+    "text": ""
+  },
+  "title2": {
+    "type": "title",
+    "value": 0,
+    "text": "ShadowOption(阴影参数)"
+  },
+
+  "ShadowColor": {
+    "type": "color",
+    "text": "ShadowColor(阴影颜色)",
+    "value": "#000000"
+  },
+  "ShadowDirection": {
+    "min": 0,
+    "max": 360,
+    "tick": 1,
+    "text": "ShadowDirection(阴影方向)",
+    "type": "slider",
+    "value": 0
+  },
+  "ShadowDepth": {
+    "min": -10,
+    "max": 10,
+    "tick": 1,
+    "text": "ShadowDepth(阴影深度)",
+    "type": "slider",
+    "value": 3
+  },
+
+  "ShadowOpacity": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "ShadowDepth(阴影透明度)",
+    "type": "slider",
+    "value": 100
+  },
+
+  "ShadowBlurRadius": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "ShadowBlurRadius(阴影模糊)",
+    "type": "slider",
+    "value": 5
+  },
+
+}
