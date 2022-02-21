@@ -1,7 +1,7 @@
 # colkwallpaper
 
 #### 介绍
-动态壁纸 www.colkwp.com 
+动态壁纸：www.colkwp.com 
 
 gitee链接：https://gitee.com/qqrock/colkwallpaper
 
