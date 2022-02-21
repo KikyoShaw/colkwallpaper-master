@@ -2,9 +2,14 @@
 
 #### 介绍
 动态壁纸 www.colkwp.com 
+
 gitee链接：https://gitee.com/qqrock/colkwallpaper
+
 下载链接：https://colkwp.coding.net/s/e3cf1a2f-4e01-4076-9a7e-17f1467590a7
+
 b站教学：https://www.bilibili.com/video/BV1q44y1H7nh?spm_id_from=333.999.0.0
+
+CSDN：https://blog.csdn.net/qq_36651243/article/details/123015982?spm=1001.2014.3001.5502
 
 #### 软件架构
 软件架构说明
