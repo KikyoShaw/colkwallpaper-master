@@ -1,0 +1,41 @@
+{
+  "ImageBk": {
+    "value": "",
+    "filter": "*.jpg|*.png|*.bmp",
+    "text": "Image(文件选择)",
+    "type": "folderSelect"
+  },
+
+  "ImageStrength": {
+    "type": "dropdown",
+    "value": 3,
+    "text": "ImageStrength(图片拉伸模式)",
+    "items": [
+      "None",
+      "Fill",
+      "Uniform",
+      "UniformToFill"
+    ]
+  },
+
+
+  "SplitLine1": {
+    "type": "split",
+    "value": 0,
+    "text": ""
+  },
+  "AutoRipple": {
+    "type": "checkbox",
+    "value": true,
+    "text": "AutoRipple(自动波纹)"
+  },
+
+  "AutoSpan": {
+    "min": 1,
+    "max": 10,
+    "tick": 1,
+    "text": "AutoSpan(间隔)",
+    "type": "slider",
+    "value": 3
+  }
+}

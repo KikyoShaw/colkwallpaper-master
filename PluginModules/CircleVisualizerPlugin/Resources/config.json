@@ -1,0 +1,155 @@
+{
+  "title01": {
+    "type": "title",
+    "value": 0,
+    "text": "Circle Spectrum Setting[频谱(圆)设置]"
+  },
+  
+  "zIndex": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "zIndex(显示优先级)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "title0": {
+    "type": "title",
+    "value": 0,
+    "text": "WeatherOption(频谱参数)"
+  },
+
+
+  "BackColor": {
+    "type": "color",
+    "text": "BackColor(中心颜色)",
+    "value": "#80303030"
+  },
+  
+  "LineColor": {
+    "type": "color",
+    "text": "LineColor(边缘颜色)",
+    "value": "#FFFFFFFF"
+  },
+
+  "LineSize": {
+    "min": 1,
+    "max": 100,
+    "tick": 1,
+    "text": "LineSize(边缘粗)",
+    "type": "slider",
+    "value": 3
+  },
+  "LineSwing": {
+    "min": 0,
+    "max": 200,
+    "tick": 1,
+    "text": "swing(增幅)",
+    "type": "slider",
+    "value": 50
+  },
+
+  "HorizontalOffset": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "HorizontalOffset(水平偏移)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "VerticalOffset": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "VerticalOffset(水平垂直)",
+    "type": "slider",
+    "value": 0
+  },
+  
+  "ShowSize": {
+    "min": 100,
+    "max": 1000,
+    "tick": 1,
+    "text": "ShowWidth(显示宽度)",
+    "type": "slider",
+    "value": 800
+  },
+
+  "Opacity": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "Opacity(全局透明度)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "Shake": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Shake(节奏震动)"
+  },
+  "ShakeSpeed": {
+    "min": 0,
+    "max": 50,
+    "tick": 1,
+    "text": "ShakeSpeed(节奏震动速度)",
+    "type": "slider",
+    "value": 10
+  },
+  "title2": {
+    "type": "title",
+    "value": 0,
+    "text": "ColorizeOption(色彩参数)"
+  },
+
+  "Colorize": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Colorize(彩色化)"
+  },
+
+  "AtuoHue": {
+    "type": "checkbox",
+    "value": true,
+    "text": "AutoHue(自动色彩)"
+  },
+  
+
+  "Hue": {
+    "min": 0,
+    "max": 3600,
+    "tick": 1,
+    "text": "ImgHue(色彩)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "Sat": {
+    "min": 0,
+    "max": 5000,
+    "tick": 1,
+    "text": "ImgSaturation(饱和度)",
+    "type": "slider",
+    "value": 1000
+  },
+  "Lum": {
+    "min": -1000,
+    "max": 1000,
+    "tick": 1,
+    "text": "ImgLuminosity(光暗)",
+    "type": "slider",
+    "value": 0
+  },
+  "Tolerance": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "Tolerance(色彩范围)",
+    "type": "slider",
+    "value": 0
+  },
+
+}

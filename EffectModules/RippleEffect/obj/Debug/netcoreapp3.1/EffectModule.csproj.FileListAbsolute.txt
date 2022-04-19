@@ -1,0 +1,2 @@
+E:\shaw\ColkEffectPlugin\EffectModules\RippleEffect\obj\Debug\netcoreapp3.1\RippleEffectModule.dll
+E:\shaw\ColkEffectPlugin\EffectModules\RippleEffect\obj\Debug\netcoreapp3.1\RippleEffectModule.pdb

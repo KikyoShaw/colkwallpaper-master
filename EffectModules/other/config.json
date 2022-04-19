@@ -1,0 +1,185 @@
+{
+  "ImageBk": {
+    "value": "",
+    "filter": "*.jpg|*.png|*.bmp",
+    "text": "Image(文件选择)",
+    "type": "folderSelect"
+  },
+
+  "ImageStrength": {
+    "type": "dropdown",
+    "value": 3,
+    "text": "ImageStrength(图片拉伸模式)",
+    "items": [
+      "None",
+      "Fill",
+      "Uniform",
+      "UniformToFill"
+    ]
+  },
+
+  "title1": {
+    "type": "title",
+    "value": 0,
+    "text": "EffectOption(特效参数)"
+  },
+
+  "speed": {
+    "min": 1,
+    "max": 300,
+    "tick": 1,
+    "text": "速度",
+    "type": "slider",
+    "value": 15
+  },
+
+  "Direction": {
+    "type": "checkbox",
+    "value": true,
+    "text": "AboutReverse(左右反转)"
+  },
+
+  "UpDownReverse": {
+    "type": "checkbox",
+    "value": false,
+    "text": "UpDownReverse(上下反转)"
+  },
+
+  "title2": {
+    "type": "title",
+    "value": 0,
+    "text": "Image Color Setting(图片颜色设置)"
+  },
+
+  "imgHue": {
+    "min": 0,
+    "max": 3600,
+    "tick": 1,
+    "text": "ImgHue(色彩)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "imgSat": {
+    "min": 0,
+    "max": 5000,
+    "tick": 1,
+    "text": "ImgSaturation(饱和度)",
+    "type": "slider",
+    "value": 1000
+  },
+  "imgLum": {
+    "min": -1000,
+    "max": 1000,
+    "tick": 1,
+    "text": "ImgLuminosity(光暗)",
+    "type": "slider",
+    "value": 0
+  },  
+  "ImageDirection": {
+    "type": "checkbox",
+    "value": false,
+    "text": "AboutReverse(左右反转)"
+  },
+
+  "ImageUpDownReverse": {
+    "type": "checkbox",
+    "value": false,
+    "text": "UpDownReverse(上下反转)"
+  },
+  "title3": {
+    "type": "title",
+    "value": 0,
+    "text": "Effect Color Setting(特效颜色设置)"
+  },
+
+  "EffHue": {
+    "min": 0,
+    "max": 3600,
+    "tick": 1,
+    "text": "Hue(色彩)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "EffSat": {
+    "min": 0,
+    "max": 5000,
+    "tick": 1,
+    "text": "Saturation(饱和度)",
+    "type": "slider",
+    "value": 1000
+  },
+
+  "EffLum": {
+    "min": -1000,
+    "max": 1000,
+    "tick": 1,
+    "text": "Luminosity(光暗)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "AutoHue": {
+    "type": "checkbox",
+    "value": true,
+    "text": "AutoHue(特效自动变色)"
+  },
+
+  "title4": {
+    "type": "title",
+    "value": 0,
+    "text": "blendMode(颜色混合设置)"
+  },
+
+  "Alpha": {
+    "min": 0,
+    "max": 10000,
+    "tick": 1,
+    "text": "Alpha",
+    "type": "slider",
+    "value": 1000
+  },
+
+  "AlphaMode": {
+    "type": "dropdown",
+    "value": 1,
+    "text": "AlphaMode(Alpha混合模式)",
+    "items": [
+      "(ColorFilter1)颜色过滤-原图优先",
+      "(ColorFilter2)颜色过滤-默认",
+      "(None)不过滤",
+      "(Image First)原图优先",
+      "(Default)混合默认",
+      "(Effect First)特效优先",
+      "(Special1)特殊模式1",
+      "(Special2)特殊模式2"
+    ]
+  },
+
+  "FilterColor": {
+    "text": "FilterColor(颜色过滤)",
+    "type": "color",
+    "value": "#002E45"
+  },
+
+  "GrayFilter": {
+    "min": -2000,
+    "max": 2000,
+    "tick": 1,
+    "text": "AlphaFilter(遮挡级别)",
+    "type": "slider",
+    "value": 430
+  },
+
+  "FiflterHeight": {
+    "min": -100,
+    "max": 100,
+    "tick": 1,
+    "text": "FiflterHeight(屏蔽高度)",
+    "type": "slider",
+    "value": 0
+  }
+
+
+}

@@ -1,0 +1,14 @@
+E:\code\LocalWalpaper\EffectProject\EffectModules\bin\Release\netcoreapp3.1\RippleEffectModule.deps.json
+E:\code\LocalWalpaper\EffectProject\EffectModules\bin\Release\netcoreapp3.1\RippleEffectModule.dll
+E:\code\LocalWalpaper\EffectProject\EffectModules\bin\Release\netcoreapp3.1\RippleEffectModule.pdb
+E:\code\LocalWalpaper\EffectProject\EffectModules\RippleEffect\obj\Release\netcoreapp3.1\RippleEffectModule.csproj.AssemblyReference.cache
+E:\code\LocalWalpaper\EffectProject\EffectModules\RippleEffect\obj\Release\netcoreapp3.1\EffectView.g.cs
+E:\code\LocalWalpaper\EffectProject\EffectModules\RippleEffect\obj\Release\netcoreapp3.1\RippleEffectModule_MarkupCompile.cache
+E:\code\LocalWalpaper\EffectProject\EffectModules\RippleEffect\obj\Release\netcoreapp3.1\RippleEffectModule_MarkupCompile.lref
+E:\code\LocalWalpaper\EffectProject\EffectModules\RippleEffect\obj\Release\netcoreapp3.1\EffectView.baml
+E:\code\LocalWalpaper\EffectProject\EffectModules\RippleEffect\obj\Release\netcoreapp3.1\RippleEffectModule.g.resources
+E:\code\LocalWalpaper\EffectProject\EffectModules\RippleEffect\obj\Release\netcoreapp3.1\RippleEffectModule.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\LocalWalpaper\EffectProject\EffectModules\RippleEffect\obj\Release\netcoreapp3.1\RippleEffectModule.csproj.CoreCompileInputs.cache
+E:\code\LocalWalpaper\EffectProject\EffectModules\RippleEffect\obj\Release\netcoreapp3.1\RippleEffectModule.csproj.CopyComplete
+E:\code\LocalWalpaper\EffectProject\EffectModules\RippleEffect\obj\Release\netcoreapp3.1\RippleEffectModule.dll
+E:\code\LocalWalpaper\EffectProject\EffectModules\RippleEffect\obj\Release\netcoreapp3.1\RippleEffectModule.pdb

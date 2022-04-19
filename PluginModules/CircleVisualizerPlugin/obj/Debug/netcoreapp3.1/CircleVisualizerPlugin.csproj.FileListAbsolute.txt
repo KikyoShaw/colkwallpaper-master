@@ -1,0 +1,15 @@
+E:\shaw\ColkEffectPlugin\PluginModules\bin\Debug\netcoreapp3.1\CircleVisualizerPlugin.deps.json
+E:\shaw\ColkEffectPlugin\PluginModules\bin\Debug\netcoreapp3.1\CircleVisualizerPlugin.dll
+E:\shaw\ColkEffectPlugin\PluginModules\bin\Debug\netcoreapp3.1\CircleVisualizerPlugin.pdb
+E:\shaw\ColkEffectPlugin\PluginModules\CircleVisualizerPlugin\obj\Debug\netcoreapp3.1\CircleVisualizerPlugin.csproj.AssemblyReference.cache
+E:\shaw\ColkEffectPlugin\PluginModules\CircleVisualizerPlugin\obj\Debug\netcoreapp3.1\EffectView.g.cs
+E:\shaw\ColkEffectPlugin\PluginModules\CircleVisualizerPlugin\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+E:\shaw\ColkEffectPlugin\PluginModules\CircleVisualizerPlugin\obj\Debug\netcoreapp3.1\CircleVisualizerPlugin_MarkupCompile.cache
+E:\shaw\ColkEffectPlugin\PluginModules\CircleVisualizerPlugin\obj\Debug\netcoreapp3.1\CircleVisualizerPlugin_MarkupCompile.lref
+E:\shaw\ColkEffectPlugin\PluginModules\CircleVisualizerPlugin\obj\Debug\netcoreapp3.1\EffectView.baml
+E:\shaw\ColkEffectPlugin\PluginModules\CircleVisualizerPlugin\obj\Debug\netcoreapp3.1\CircleVisualizerPlugin.g.resources
+E:\shaw\ColkEffectPlugin\PluginModules\CircleVisualizerPlugin\obj\Debug\netcoreapp3.1\CircleVisualizerPlugin.GeneratedMSBuildEditorConfig.editorconfig
+E:\shaw\ColkEffectPlugin\PluginModules\CircleVisualizerPlugin\obj\Debug\netcoreapp3.1\CircleVisualizerPlugin.csproj.CoreCompileInputs.cache
+E:\shaw\ColkEffectPlugin\PluginModules\CircleVisualizerPlugin\obj\Debug\netcoreapp3.1\CircleVisualizerPlugin.csproj.CopyComplete
+E:\shaw\ColkEffectPlugin\PluginModules\CircleVisualizerPlugin\obj\Debug\netcoreapp3.1\CircleVisualizerPlugin.dll
+E:\shaw\ColkEffectPlugin\PluginModules\CircleVisualizerPlugin\obj\Debug\netcoreapp3.1\CircleVisualizerPlugin.pdb

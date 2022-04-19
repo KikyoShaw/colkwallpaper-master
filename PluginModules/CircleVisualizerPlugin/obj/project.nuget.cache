@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "kr5N3i7rRGyO3M1vP2WfM3ioI9SWRkn3PnYpo7IuUZtg5jDspNTEJ/eSFecuFPwkQeSfy/W7UtpGp4PlSlvdxA==",
+  "success": true,
+  "projectFilePath": "E:\\shaw\\ColkEffectPlugin\\PluginModules\\CircleVisualizerPlugin\\CircleVisualizerPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shaw-\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\shaw-\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\shaw-\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
