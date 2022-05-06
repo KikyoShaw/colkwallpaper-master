@@ -1,0 +1,14 @@
+E:\shaw\demo\colkwallpaper-master\EffectModules\bin\Debug\netcoreapp3.1\LightraysEffect.deps.json
+E:\shaw\demo\colkwallpaper-master\EffectModules\bin\Debug\netcoreapp3.1\LightraysEffect.dll
+E:\shaw\demo\colkwallpaper-master\EffectModules\bin\Debug\netcoreapp3.1\LightraysEffect.pdb
+E:\shaw\demo\colkwallpaper-master\EffectModules\LightraysEffect\obj\Debug\netcoreapp3.1\LightraysEffect.csproj.AssemblyReference.cache
+E:\shaw\demo\colkwallpaper-master\EffectModules\LightraysEffect\obj\Debug\netcoreapp3.1\EffectView.g.cs
+E:\shaw\demo\colkwallpaper-master\EffectModules\LightraysEffect\obj\Debug\netcoreapp3.1\LightraysEffect_MarkupCompile.cache
+E:\shaw\demo\colkwallpaper-master\EffectModules\LightraysEffect\obj\Debug\netcoreapp3.1\LightraysEffect_MarkupCompile.lref
+E:\shaw\demo\colkwallpaper-master\EffectModules\LightraysEffect\obj\Debug\netcoreapp3.1\EffectView.baml
+E:\shaw\demo\colkwallpaper-master\EffectModules\LightraysEffect\obj\Debug\netcoreapp3.1\LightraysEffect.g.resources
+E:\shaw\demo\colkwallpaper-master\EffectModules\LightraysEffect\obj\Debug\netcoreapp3.1\LightraysEffect.GeneratedMSBuildEditorConfig.editorconfig
+E:\shaw\demo\colkwallpaper-master\EffectModules\LightraysEffect\obj\Debug\netcoreapp3.1\LightraysEffect.csproj.CoreCompileInputs.cache
+E:\shaw\demo\colkwallpaper-master\EffectModules\LightraysEffect\obj\Debug\netcoreapp3.1\LightraysEffect.csproj.CopyComplete
+E:\shaw\demo\colkwallpaper-master\EffectModules\LightraysEffect\obj\Debug\netcoreapp3.1\LightraysEffect.dll
+E:\shaw\demo\colkwallpaper-master\EffectModules\LightraysEffect\obj\Debug\netcoreapp3.1\LightraysEffect.pdb

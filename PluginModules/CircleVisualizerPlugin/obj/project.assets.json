@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\shaw\\ColkEffectPlugin\\PluginModules\\CircleVisualizerPlugin\\CircleVisualizerPlugin.csproj",
+      "projectUniqueName": "E:\\shaw\\demo\\colkwallpaper-master\\PluginModules\\CircleVisualizerPlugin\\CircleVisualizerPlugin.csproj",
       "projectName": "CircleVisualizerPlugin",
-      "projectPath": "E:\\shaw\\ColkEffectPlugin\\PluginModules\\CircleVisualizerPlugin\\CircleVisualizerPlugin.csproj",
+      "projectPath": "E:\\shaw\\demo\\colkwallpaper-master\\PluginModules\\CircleVisualizerPlugin\\CircleVisualizerPlugin.csproj",
       "packagesPath": "C:\\Users\\shaw-\\.nuget\\packages\\",
-      "outputPath": "E:\\shaw\\ColkEffectPlugin\\PluginModules\\CircleVisualizerPlugin\\obj\\",
+      "outputPath": "E:\\shaw\\demo\\colkwallpaper-master\\PluginModules\\CircleVisualizerPlugin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

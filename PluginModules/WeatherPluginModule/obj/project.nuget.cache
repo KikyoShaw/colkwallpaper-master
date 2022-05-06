@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "mbhM1gLpxLmWmbQgx+nGiCvH8Ehi9ThIX8WsKCvg/uL9Z342fSg3owHEAnVaJI353NzUBQRGrhtF5HXRmEH8jg==",
+  "success": true,
+  "projectFilePath": "E:\\shaw\\demo\\colkwallpaper-master\\PluginModules\\WeatherPluginModule\\WeatherPluginModule.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shaw-\\.nuget\\packages\\cefsharp.common.netcore\\89.0.170\\cefsharp.common.netcore.89.0.170.nupkg.sha512",
+    "C:\\Users\\shaw-\\.nuget\\packages\\cefsharp.wpf.netcore\\89.0.170\\cefsharp.wpf.netcore.89.0.170.nupkg.sha512",
+    "C:\\Users\\shaw-\\.nuget\\packages\\chromiumembeddedframework.runtime\\89.0.17\\chromiumembeddedframework.runtime.89.0.17.nupkg.sha512",
+    "C:\\Users\\shaw-\\.nuget\\packages\\chromiumembeddedframework.runtime.win-x64\\89.0.17\\chromiumembeddedframework.runtime.win-x64.89.0.17.nupkg.sha512",
+    "C:\\Users\\shaw-\\.nuget\\packages\\chromiumembeddedframework.runtime.win-x86\\89.0.17\\chromiumembeddedframework.runtime.win-x86.89.0.17.nupkg.sha512",
+    "C:\\Users\\shaw-\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\shaw-\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\shaw-\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\shaw-\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,186 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WeatherPluginModule/1.0.0": {
+        "dependencies": {
+          "CefSharp.Wpf.NETCore": "89.0.170",
+          "EffectConfigModule": "1.0.0.0"
+        },
+        "runtime": {
+          "WeatherPluginModule.dll": {}
+        }
+      },
+      "CefSharp.Common.NETCore/89.0.170": {
+        "dependencies": {
+          "System.Text.Json": "5.0.0",
+          "chromiumembeddedframework.runtime": "89.0.17"
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/lib/netcoreapp3.1/CefSharp.Core.Runtime.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "89.0.170.0",
+            "fileVersion": "89.0.170.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/CefSharp.Core.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "89.0.170.0",
+            "fileVersion": "89.0.170.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/CefSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "89.0.170.0",
+            "fileVersion": "89.0.170.0"
+          },
+          "runtimes/win-x64/lib/netcoreapp3.1/Ijwhost.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "fileVersion": "3.100.1321.11602"
+          },
+          "runtimes/win-x86/lib/netcoreapp3.1/CefSharp.Core.Runtime.dll": {
+            "rid": "win-x86",
+            "assetType": "runtime",
+            "assemblyVersion": "89.0.170.0",
+            "fileVersion": "89.0.170.0"
+          },
+          "runtimes/win-x86/lib/netcoreapp3.1/CefSharp.Core.dll": {
+            "rid": "win-x86",
+            "assetType": "runtime",
+            "assemblyVersion": "89.0.170.0",
+            "fileVersion": "89.0.170.0"
+          },
+          "runtimes/win-x86/lib/netcoreapp3.1/CefSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "runtime",
+            "assemblyVersion": "89.0.170.0",
+            "fileVersion": "89.0.170.0"
+          },
+          "runtimes/win-x86/lib/netcoreapp3.1/Ijwhost.dll": {
+            "rid": "win-x86",
+            "assetType": "runtime",
+            "fileVersion": "3.100.1321.11602"
+          },
+          "runtimes/win-x64/native/CefSharp.BrowserSubprocess.Core.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "assemblyVersion": "89.0.170.0",
+            "fileVersion": "89.0.170.0"
+          },
+          "runtimes/win-x64/native/CefSharp.BrowserSubprocess.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "assemblyVersion": "89.0.170.0",
+            "fileVersion": "89.0.170.0"
+          },
+          "runtimes/win-x64/native/CefSharp.BrowserSubprocess.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "89.0.170.0"
+          },
+          "runtimes/win-x64/native/CefSharp.BrowserSubprocess.runtimeconfig.json": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/CefSharp.BrowserSubprocess.Core.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "assemblyVersion": "89.0.170.0",
+            "fileVersion": "89.0.170.0"
+          },
+          "runtimes/win-x86/native/CefSharp.BrowserSubprocess.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "assemblyVersion": "89.0.170.0",
+            "fileVersion": "89.0.170.0"
+          },
+          "runtimes/win-x86/native/CefSharp.BrowserSubprocess.exe": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "89.0.170.0"
+          },
+          "runtimes/win-x86/native/CefSharp.BrowserSubprocess.runtimeconfig.json": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "CefSharp.Wpf.NETCore/89.0.170": {
+        "dependencies": {
+          "CefSharp.Common.NETCore": "89.0.170"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/CefSharp.Wpf.dll": {
+            "assemblyVersion": "89.0.170.0",
+            "fileVersion": "89.0.170.0"
+          }
+        }
+      },
+      "chromiumembeddedframework.runtime/89.0.17": {},
+      "System.Text.Json/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "EffectConfigModule/1.0.0.0": {
+        "runtime": {
+          "EffectConfigModule.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WeatherPluginModule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CefSharp.Common.NETCore/89.0.170": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Uv4DcKkZyIs6n0bMtx1+9Zx0gLNIzZ4NgfsuBm4V9WxH2ufrctcNqtUhRFdWysbBT+BVMBeZom9YWUoSMTTsQ==",
+      "path": "cefsharp.common.netcore/89.0.170",
+      "hashPath": "cefsharp.common.netcore.89.0.170.nupkg.sha512"
+    },
+    "CefSharp.Wpf.NETCore/89.0.170": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-II7FMiUh47XR0IDvGQKlO6kdvg0uqsO0FNVboF/n4cQ7w9T8ZokNNd6Z4VGwSihF90SdlGB3+1iesqCt5fMvjA==",
+      "path": "cefsharp.wpf.netcore/89.0.170",
+      "hashPath": "cefsharp.wpf.netcore.89.0.170.nupkg.sha512"
+    },
+    "chromiumembeddedframework.runtime/89.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6fKMWgB+Mu9lj/hgAL9Q5lI2VY7gz2wXJgy7mjTbi1wNujnMhj3AUPGHL/nfftra8jUkIGPSD1kQDR8yPbBcxQ==",
+      "path": "chromiumembeddedframework.runtime/89.0.17",
+      "hashPath": "chromiumembeddedframework.runtime.89.0.17.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
+      "path": "system.text.json/5.0.0",
+      "hashPath": "system.text.json.5.0.0.nupkg.sha512"
+    },
+    "EffectConfigModule/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

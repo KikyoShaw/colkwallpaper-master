@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kr5N3i7rRGyO3M1vP2WfM3ioI9SWRkn3PnYpo7IuUZtg5jDspNTEJ/eSFecuFPwkQeSfy/W7UtpGp4PlSlvdxA==",
+  "dgSpecHash": "b4s0pRbE9SgIR9bHxkGiBS9YhlPFvUGALv8Lfr7M7J4HYIGxCsUysbFRw8njy+WOlVu+8KbUK69DVrUJS1M4tQ==",
   "success": true,
-  "projectFilePath": "E:\\shaw\\ColkEffectPlugin\\PluginModules\\CircleVisualizerPlugin\\CircleVisualizerPlugin.csproj",
+  "projectFilePath": "E:\\shaw\\demo\\colkwallpaper-master\\PluginModules\\CircleVisualizerPlugin\\CircleVisualizerPlugin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shaw-\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\shaw-\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
