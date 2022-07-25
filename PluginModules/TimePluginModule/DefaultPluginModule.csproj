@@ -2,7 +2,6 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UseWindowsForms>true</UseWindowsForms>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -47,7 +46,8 @@
 
   <ItemGroup>
     <Reference Include="EffectConfigModule">
-      <HintPath>..\..\bin\Assemblies\EffectConfigModule.dll</HintPath>
+      <HintPath>..\..\bin\Debug\netcoreapp3.1\EffectConfigModule.dll</HintPath>
+      <HintPath>..\..\bin\Debug\netcoreapp3.1\EffectConfigModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

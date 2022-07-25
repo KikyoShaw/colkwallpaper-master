@@ -22,64 +22,67 @@
         <vt:FontItalicConvert x:Key="vtFontItalic"/>
     </UserControl.Resources>
     <Grid x:Name="plugin">
-       <StackPanel x:Name="diyInfo" HorizontalAlignment="Center" 
-                    VerticalAlignment="Center" Margin="{Binding ShowDiyMargin}">
-           <TextBlock x:Name="DiyTxt" Text="{Binding sDiyText}"
+        <Grid x:Name="diyInfo" HorizontalAlignment="Center"  VerticalAlignment="Center" 
+              Background="{Binding diyBackColor, Converter={StaticResource vtColorBrush}}"
+              Width="{Binding iShowDiyWidth}" Height="{Binding iShowDiyHeight}" Margin="{Binding ShowDiyMargin}">
+                <TextBlock x:Name="DiyTxt" Text="{Binding sDiyText}"
                       Visibility="{Binding bShowDiyText, Converter={StaticResource vtBoolVisable}}"
                       Opacity="{Binding iDiyOpacity,Converter={StaticResource vtOpacity}}" 
                       Foreground="{Binding txtColor, Converter={StaticResource vtColorBrush}}"
                       FontFamily="{Binding showDiyfont,Converter={StaticResource vtFontName}}"
                       FontWeight="{Binding showDiyfont,Converter={StaticResource vtFontBold}}"
                       FontStyle="{Binding showDiyfont,Converter={StaticResource vtFontItalic}}"
-                      FontSize="{Binding fDiyFontSize}" 
-                      TextAlignment="Center" >
-               <TextBlock.Effect>
-                <DropShadowEffect Color="{Binding ShadowColor}" 
+                      FontSize="{Binding fDiyFontSize}" TextWrapping="Wrap"
+                      HorizontalAlignment="Center" >
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="{Binding ShadowColor}" 
                                   Direction="{Binding iShadowDirection}" 
                                   ShadowDepth="{Binding iShadowDepth}" 
                                   BlurRadius="{Binding iShadowBlurRadius}"
                                   Opacity="{Binding iShadowOpacity,Converter={StaticResource vtOpacity}}" />
-               </TextBlock.Effect>
+                    </TextBlock.Effect>
                <!--<TextBlock.Text>
                     <MultiBinding Converter="{StaticResource vtDate}">
                         <Binding Path="CurDateTime" />
                         <Binding Path="sDiyText" />
                     </MultiBinding>
                 </TextBlock.Text>-->
-            </TextBlock>
-    </StackPanel>
-    <StackPanel x:Name="plugInfo" Orientation="Vertical" HorizontalAlignment="Center" 
-                    VerticalAlignment="Center" Margin="{Binding ShowMargin}">
-        <TextBlock  x:Name="TimeTxt" Text="{Binding sShowDateTime1}" 
+                </TextBlock>
+        </Grid>
+        <Grid  HorizontalAlignment="Center"  VerticalAlignment="Center"  
+               Background="{Binding backColor, Converter={StaticResource vtColorBrush}}"
+               Width="{Binding iShowWidth}" Height="{Binding iShowHeight}" Margin="{Binding ShowMargin}">
+            <StackPanel x:Name="plugInfo" Orientation="Vertical" HorizontalAlignment="Center"  VerticalAlignment="Center">
+                <TextBlock  x:Name="TimeTxt" Text="{Binding sShowDateTime1}" 
                     Opacity="{Binding iOpacity,Converter={StaticResource vtOpacity}}"                    
                     Foreground="{Binding TimeColor,Converter={StaticResource vtColorBrush}}"                          
                     FontFamily="{Binding showfont,Converter={StaticResource vtFontName}}"
                     FontWeight="{Binding showfont,Converter={StaticResource vtFontBold}}"
                     FontStyle="{Binding showfont,Converter={StaticResource vtFontItalic}}"
                     FontSize="{Binding fTimeFontSize}"
-                    TextAlignment="Center">
+                    TextAlignment="Center" HorizontalAlignment="Center">
                 <!--<TextBlock.Text>
                     <MultiBinding Converter="{StaticResource vtTime}">
                         <Binding Path="CurDateTime" />
                         <Binding Path="sTimeFormat" />
                     </MultiBinding>
                 </TextBlock.Text>-->
-                <TextBlock.Effect>
-                    <DropShadowEffect Color="{Binding ShadowColor}" 
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="{Binding ShadowColor}" 
                                       Direction="{Binding iShadowDirection}" 
                                       ShadowDepth="{Binding iShadowDepth}" 
                                       Opacity="{Binding iShadowOpacity,Converter={StaticResource vtOpacity}}"
                                       BlurRadius="{Binding iShadowBlurRadius}"/>
-                </TextBlock.Effect>
-            </TextBlock>
-            <TextBlock x:Name="DateTxt" Text="{Binding sShowDateTime2}" 
+                    </TextBlock.Effect>
+                </TextBlock>
+                <TextBlock x:Name="DateTxt" Text="{Binding sShowDateTime2}" 
                        Opacity="{Binding iOpacity,Converter={StaticResource vtOpacity}}"                        
                        Foreground="{Binding DateColor, Converter={StaticResource vtColorBrush}}"
                        FontFamily="{Binding showfont,Converter={StaticResource vtFontName}}"
                        FontWeight="{Binding showfont,Converter={StaticResource vtFontBold}}"
                        FontStyle="{Binding showfont,Converter={StaticResource vtFontItalic}}"
-                       FontSize="{Binding fDateFontSize}"
-                       TextAlignment="Center">
+                       FontSize="{Binding fDateFontSize}" 
+                       TextAlignment="Center" HorizontalAlignment="Center">
                 <!--<TextBlock.Text>
                     <MultiBinding Converter="{StaticResource vtDate}">
                         <Binding Path="CurDateTime" />
@@ -88,16 +91,17 @@
                         <Binding Path="iWeekFormat" />
                     </MultiBinding>
                 </TextBlock.Text>-->
-                <TextBlock.Effect>
-                    <DropShadowEffect Color="{Binding ShadowColor}" 
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="{Binding ShadowColor}" 
                                       Direction="{Binding iShadowDirection}" 
                                       ShadowDepth="{Binding iShadowDepth}" 
                                       BlurRadius="{Binding iShadowBlurRadius}"
                                       Opacity="{Binding iShadowOpacity,Converter={StaticResource vtOpacity}}" />
-                </TextBlock.Effect>
-            </TextBlock>
-           
-        </StackPanel>
+                    </TextBlock.Effect>
+                </TextBlock>
 
+            </StackPanel>
+
+        </Grid>
     </Grid>
 </UserControl>

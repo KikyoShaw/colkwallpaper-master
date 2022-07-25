@@ -43,6 +43,33 @@ namespace DefaultPluginModule.ViewModel
 
         public System.Drawing.FontConverter FontConverter => _fontConverter;
         private bool _bShowDiyText = false;
+
+        private int _iShowWidth = 0;
+        public int iShowWidth
+        {
+            get { return _iShowWidth; }
+            set { Set("iShowWidth", ref _iShowWidth, value); }
+        }
+
+        private int _iShowHeight = 0;
+        public int iShowHeight
+        {
+            get { return _iShowHeight; }
+            set { Set("iShowHeight", ref _iShowHeight, value); }
+        }
+        private int _iShowDiyWidth = 0;
+        public int iShowDiyWidth
+        {
+            get { return _iShowDiyWidth; }
+            set { Set("iShowDiyWidth", ref _iShowDiyWidth, value); }
+        }
+
+        private int _iShowDiyHeight = 0;
+        public int iShowDiyHeight
+        {
+            get { return _iShowDiyHeight; }
+            set { Set("iShowDiyHeight", ref _iShowDiyHeight, value); }
+        }
         public bool bShowDiyText
         {
             get { return _bShowDiyText; }
@@ -139,6 +166,18 @@ namespace DefaultPluginModule.ViewModel
         {
             get { return _fTimeFontSize; }
             set { Set("fTimeFontSize", ref _fTimeFontSize, value); }
+        }
+        private string _backColor = "#ffffff";
+        public string backColor
+        {
+            get { return _backColor; }
+            set { Set("backColor", ref _backColor, value); }
+        }
+        private string _diyBackColor = "#ffffff";
+        public string diyBackColor
+        {
+            get { return _diyBackColor; }
+            set { Set("diyBackColor", ref _diyBackColor, value); }
         }
         private string _txtColor = "#ffffff";
         public string txtColor

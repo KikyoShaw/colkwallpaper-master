@@ -40,6 +40,7 @@ namespace LightraysEffect
         public HYWEffectConfig.EffectConfigInfo _effectConfig = new HYWEffectConfig.EffectConfigInfo();
         public BitmapImage _defaultImage = new BitmapImage(new Uri(@"pack://application:,,,/LightraysEffect;Component/Resources/1.jpg"));
         public EffectConfigModule.ConfigWindow _configWindow = null;
+        public EffectConfigModule.SaveDesignWindow _saveDesignWindow = null;
 
         public bool _bAutoBreathe = false;
         public bool _bAutoChangeColor = false;
@@ -52,6 +53,7 @@ namespace LightraysEffect
         public Color _curColor = new Color();
         public List<Color> _argColor = new List<Color>();
         public Timer _timer = null;
+        public Size _imageSize = new Size(0, 0);
         public EffectView(int monitorIndex, string dllPath)
         {
             _monitorIndex = monitorIndex;
@@ -68,6 +70,9 @@ namespace LightraysEffect
             this.Loaded += EffectView_Loaded;
             this.Unloaded += EffectView_Unloaded;
             this.SizeChanged += EffectView_SizeChanged;
+
+            _imageSize.Width = _defaultImage.PixelWidth;
+            _imageSize.Height = _defaultImage.PixelHeight;
         }
 
         private void OnTimer(object sender, ElapsedEventArgs e)
@@ -172,13 +177,43 @@ namespace LightraysEffect
                     case "config": //打开配置
                         ShowConfig();
                         break;
+                    case "design": //打开配置
+                        ShowDesign();
+                        break;
                     case "switch": //切换
                         {
                             if (cfg.ContainsKey("path"))
                             {
-                                _defaultCfgPath = cfg["path"].ToString();
-                                _effectConfig.LoadConfigPath(_defaultCfgPath);
-                                RefreshEffect();
+                                string strPath = cfg["path"].ToString();
+
+                                if (!string.IsNullOrEmpty(strPath) && File.Exists(strPath))
+                                {
+                                    string ext = System.IO.Path.GetExtension(strPath);
+                                    if (ext.IndexOf("json", StringComparison.CurrentCultureIgnoreCase) != -1 ||
+                                        ext.IndexOf("cfg", StringComparison.CurrentCultureIgnoreCase) != -1)
+                                    {
+
+                                        _defaultCfgPath = strPath;
+                                        _effectConfig.LoadConfigPath(_defaultCfgPath);
+                                        RefreshEffect();
+                                    }
+                                    else if (ext.IndexOf("bmp", StringComparison.CurrentCultureIgnoreCase) != -1 ||
+                                        ext.IndexOf("png", StringComparison.CurrentCultureIgnoreCase) != -1 ||
+                                        ext.IndexOf("jpg", StringComparison.CurrentCultureIgnoreCase) != -1 ||
+                                        ext.IndexOf("jpeg", StringComparison.CurrentCultureIgnoreCase) != -1)
+                                    {
+                                        foreach (var item in _effectConfig.items)
+                                        {
+                                            if (string.Compare(item.key, "ImageBk", StringComparison.CurrentCultureIgnoreCase) == 0)
+                                            {
+                                                item.SetValue(strPath);
+                                                OnConfigValueChange("ImageBk", strPath);
+                                                HYWEffectConfig.EffectConfigTool.SaveConfig(_effectConfig);
+                                                break;
+                                            }
+                                        }
+                                    }
+                                }
                             }
                         }
                         break;
@@ -199,18 +234,59 @@ namespace LightraysEffect
                 _configWindow.Close();
                 _configWindow = null;
             }
+            if (_saveDesignWindow != null)
+            {
+                _saveDesignWindow.Close();
+                _saveDesignWindow = null;
+            }
 
             if (_configWindow == null)
             {
-                _configWindow = new EffectConfigModule.ConfigWindow();
-                _configWindow.actValueChange += OnConfigValueChange;
+                _configWindow = new EffectConfigModule.ConfigWindow(this);
+                
                 _configWindow.SetDataContext(_effectConfig);
             }
             _configWindow.Closing += ((s, e) =>
             {
+                _configWindow = null;
             });
 
             _configWindow.Show();
+        }
+
+        private void ShowDesign()
+        {
+            if (_effectConfig == null || _effectConfig.items.Count == 0)
+            {
+                MessageBox.Show("此特效没设置选项");
+                return;
+            }
+
+            HYWEffectConfig.EffectConfigTool.SaveConfig(_effectConfig, _effectConfig.effectConfigPath);
+            if (_saveDesignWindow != null)
+            {
+                _saveDesignWindow.Close();
+                _saveDesignWindow = null;
+            }
+            if (_configWindow != null)
+            {
+                _configWindow.Close();
+                _configWindow = null;
+            }
+
+            if (_saveDesignWindow == null)
+            {
+                _saveDesignWindow = new EffectConfigModule.SaveDesignWindow(_effectConfig, this);
+                _saveDesignWindow.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+            }
+            _saveDesignWindow.Closing += ((s, e) =>
+            {
+                _saveDesignWindow = null;
+            });
+
+            _saveDesignWindow.Topmost = true;
+            _saveDesignWindow.Show();
+            
         }
 
         private void SetColorChange()
@@ -261,18 +337,24 @@ namespace LightraysEffect
                                 if (curImage != null)
                                 {
                                     ImgBk.ImageSource = curImage;
+                                    _imageSize.Width = curImage.PixelWidth;
+                                    _imageSize.Height = curImage.PixelHeight;
+                                    LimitSize();
+                                    GC.Collect();
                                     return;
                                 }
                             }
                         }
 
                         {
-                            BitmapImage curImage = new BitmapImage(new Uri(@"pack://application:,,,/LightraysEffect;Component/Resources/1.jpg"));
-                            //BitmapImage curImage = new BitmapImage(new Uri(value));
-                            if (curImage != null)
+                            if (_defaultImage != null)
                             {
-                                ImgBk.ImageSource = curImage;
+                                ImgBk.ImageSource = _defaultImage;
+                                _imageSize.Width = _defaultImage.PixelWidth;
+                                _imageSize.Height = _defaultImage.PixelHeight;
                             }
+                            LimitSize();
+                            GC.Collect();
                         }
                     }
                     break;
@@ -283,15 +365,19 @@ namespace LightraysEffect
                         {
                             case 1:
                                 ImgBk.Stretch = Stretch.Fill;
+                                br.Stretch = Stretch.Fill;
                                 break;
                             case 2:
                                 ImgBk.Stretch = Stretch.Uniform;
+                                br.Stretch = Stretch.Uniform;
                                 break;
                             case 3:
                                 ImgBk.Stretch = Stretch.UniformToFill;
+                                br.Stretch = Stretch.UniformToFill;
                                 break;
                             default:
-                                ImgBk.Stretch = Stretch.None;
+                                ImgBk.Stretch = Stretch.Uniform;
+                                br.Stretch = Stretch.None;
                                 break;
                         }
                     }
@@ -374,6 +460,22 @@ namespace LightraysEffect
                         _curChangeSpeed = (double.Parse(value) / 100);
                     }
                     break;
+
+                case "imgHue":
+                    {
+                        _effect.ImgHue = (double)((int.Parse(value))) / 10.0;
+                    }
+                    break;
+                case "imgSat":
+                    {
+                        _effect.ImgSat = (double)((int.Parse(value))) / 1000.0;
+                    }
+                    break;
+                case "imgLum":
+                    {
+                        _effect.ImgLum = (double)((int.Parse(value))) / 1000.0;
+                    }
+                    break;
             }
         }
 
@@ -411,8 +513,11 @@ namespace LightraysEffect
                     {
                         sCfgData = r.ReadToEnd();
                         _effectConfig = HYWEffectConfig.EffectConfigTool.EffectConfigParseString(sCfgData, _dllPath, "LightraysEffect_v1.0", _monitorIndex);
-                        _effectConfig.LoadConfigPath(_defaultCfgPath);
-                        RefreshEffect();
+                        _effectConfig.SetConfigAction(OnConfigValueChange, RefreshEffect);
+                        if (!string.IsNullOrEmpty(_defaultCfgPath))
+                            _effectConfig.LoadConfigPath(_defaultCfgPath);
+                        else
+                            RefreshEffect();
                     }
                 }
 
@@ -425,21 +530,46 @@ namespace LightraysEffect
             }
             catch { }
         }
-        private void EffectView_SizeChanged(object sender, SizeChangedEventArgs e)
-        {
-            if (_effect != null)
-            {
-                _effect.ResolutionX = this.ActualWidth;
-                _effect.ResolutionY = this.ActualHeight;
-            }
-        }
-        private void RefreshEffect()
+        private void RefreshEffect(object obj = null)
         {
             foreach(var item in _effectConfig.items)
             {
                 string value = (item.GetValue());
                 string key = (item.key);
                 OnConfigValueChange(key, value);
+            }
+        }
+        private void EffectView_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            if (_effect != null)
+            {
+                _effect.ResolutionX = this.ActualWidth;
+                _effect.ResolutionY = this.ActualHeight;
+
+                LimitSize();
+            }
+        }
+        double GetImageRatioHeight(double w)
+        {
+            return w * this.ActualHeight / this.ActualWidth;
+        }
+        double GetImageRatioWidth(double h)
+        {
+            return h * this.ActualWidth / this.ActualHeight;
+        }
+        private void LimitSize()
+        {
+            if (this.ActualWidth > _imageSize.Width)
+            {
+
+                Back.Width = Math.Min(_imageSize.Width, 3000);
+                Back.Height = GetImageRatioHeight(Back.Width);
+            }
+            else
+            {
+                Back.Width = Math.Min(this.ActualWidth, 3000);
+                Back.Height = GetImageRatioHeight(Back.Width);
+
             }
         }
     }

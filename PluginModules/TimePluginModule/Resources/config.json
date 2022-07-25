@@ -12,6 +12,40 @@
     "text": "DateTimeSetting (日期/时间設置)"
   },
 
+  "ShowWidthRatio": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "ShowWidthRatio(显示宽度)",
+    "type": "slider",
+    "value": 400
+  },
+  "ShowHeightRatio": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "ShowHeightRatio(显示高度)",
+    "type": "slider",
+    "value": 420
+  },
+  "HorizontalOffset": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "HorizontalOffset(水平偏移)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "VerticalOffset": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "VerticalOffset(水平垂直)",
+    "type": "slider",
+    "value": -400
+  },
+  
   "ShowTime": {
     "type": "checkbox",
     "value": true,
@@ -44,24 +78,6 @@
     "value": false,
     "text": "FirstAnte(优先显示上下午)"
   },
-
-  "HorizontalOffset": {
-    "min": -500,
-    "max": 500,
-    "tick": 1,
-    "text": "HorizontalOffset(水平偏移)",
-    "type": "slider",
-    "value": 0
-  },
-
-  "VerticalOffset": {
-    "min": -500,
-    "max": 500,
-    "tick": 1,
-    "text": "VerticalOffset(水平垂直)",
-    "type": "slider",
-    "value": -400
-  },
   "ShowFont": {
     "type": "font",
     "value": "Microsoft YaHei UI, 25pt",
@@ -83,6 +99,12 @@
     "type": "slider",
     "value": 40
   },
+  "BackColor": {
+    "type": "color",
+    "text": "BackColor(背景颜色)",
+    "value": "#00000000"
+  },
+
   "TimeFontColor": {
     "type": "color",
     "text": "Line1Color(第一行字体颜色)",
@@ -113,7 +135,7 @@
       "HH:mm:ss",
       "h:mm:ss",
       "HH:mm",
-      "h:mm",
+      "h:mm"
     ]
   },
 
@@ -134,7 +156,7 @@
       "yyyy年MM月dd日",
       "MM-dd",
       "MM/dd",
-      "MM月dd日",
+      "MM月dd日"
     ]
   },
 
@@ -152,7 +174,7 @@
       "Default(系统默认)",
       "Full.English(Monday)",
       "Abb.English(Mon)",
-      "Chinese(星期一)",
+      "Chinese(星期一)"
     ]
   },
   "AnteFomrat": {
@@ -165,7 +187,7 @@
       "Am/Pm",
       "am/pm",
       "A./P.",
-      "上午/下午",
+      "上午/下午"
     ]
   },
 
@@ -186,6 +208,22 @@
     "text": "ShowDiyText(显示自定义文字)"
   },
 
+  "ShowDiyWidthRatio": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "ShowWidthRatio(显示自定义宽度)",
+    "type": "slider",
+    "value": 400
+  },
+  "ShowDiyHeightRatio": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "ShowHeightRatio(显示自定义高度)",
+    "type": "slider",
+    "value": 420
+  },
 
   "DiyHorizontalOffset": {
     "min": -500,
@@ -209,6 +247,12 @@
     "type": "label",
     "value": "Hello",
     "text": "DiyText(自定义文字)"
+  },
+
+  "DiyBackColor": {
+    "type": "color",
+    "text": "DiyBackColor(diy背景颜色)",
+    "value": "#00000000"
   },
 
   "DiyFontColor": {
@@ -290,6 +334,6 @@
     "text": "ShadowBlurRadius(阴影模糊)",
     "type": "slider",
     "value": 5
-  },
+  }
 
 }

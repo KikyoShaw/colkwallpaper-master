@@ -51,7 +51,7 @@
   
   <ItemGroup>
     <Reference Include="EffectConfigModule">
-      <HintPath>..\..\bin\Assemblies\EffectConfigModule.dll</HintPath>
+      <HintPath>..\..\bin\Debug\netcoreapp3.1\EffectConfigModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -23,7 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EffectConfigModule\EffectConfigModule.csproj" />
+    <Reference Include="EffectConfigModule">
+      <HintPath>..\..\bin\Debug\netcoreapp3.1\EffectConfigModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\config.json" />

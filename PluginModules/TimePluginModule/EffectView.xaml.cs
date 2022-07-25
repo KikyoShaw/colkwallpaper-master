@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EffectConfigModule.Help;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -44,6 +45,10 @@ namespace DefaultPluginModule
         private int _timeFomrat = 0;
         private string _sDateFomrat = "";
         private string _sTimeFomrat = "";
+        int _iShowWidthRatio = 0;
+        int _iShowHeightRatio = 0;
+        int _iShowDiyWidthRatio = 0;
+        int _iShowDiyHeightRatio = 0;
         public EffectView(int monitorIndex, string dllPath)
         {
             _monitorIndex = monitorIndex;
@@ -117,6 +122,16 @@ namespace DefaultPluginModule
                     case "config": //打开配置
                         ShowConfig();
                         break;
+                    case "saveconfig": //打开配置
+                        {
+                            if (cfg.ContainsKey("path"))
+                            {
+                                HYWEffectConfig.EffectConfigTool.SaveConfig(_effectConfig);
+                                var path = cfg["path"].ToString();
+                                HYWEffectConfig.EffectConfigTool.SaveConfig(_effectConfig, path);
+                            }
+                        }
+                        break;
                     case "switch": //切换
                         {
                             if (cfg.ContainsKey("path"))
@@ -140,19 +155,19 @@ namespace DefaultPluginModule
         {
             if (_effectConfig == null || _effectConfig.items.Count == 0)
             {
-                MessageBox.Show("此特效没设置选项");                
+                MessageBox.Show("此特效没设置选项");             
                 return;
             }
             if (_configWindow != null)
             {
                 _configWindow.Close();
-                _configWindow = null;
+                _configWindow = null;                
             }
 
             if (_configWindow == null)
             {
                 _configWindow = new EffectConfigModule.ConfigWindow();
-                _configWindow.actValueChange += OnConfigValueChange;
+                
                 _configWindow.SetDataContext(_effectConfig);
             }
             _configWindow.Closing += ((s, e) =>
@@ -284,9 +299,16 @@ namespace DefaultPluginModule
         }
         private void SetDiyPosition()
         {
+            //double hov = ((double)_diyHovPos / 500 * (this.ActualWidth - DiyTxt.ActualWidth));
+            //double vec = ((double)_diyVerPos / 500.0 * (this.ActualHeight - DiyTxt.ActualHeight));
+            //_diythickness.Left = hov;
+            //_diythickness.Top = vec;
+            //vm.ShowDiyMargin = _diythickness;
 
-            double hov = ((double)_diyHovPos / 500 * (this.ActualWidth - DiyTxt.ActualWidth));
-            double vec = ((double)_diyVerPos / 500.0 * (this.ActualHeight - DiyTxt.ActualHeight));
+            vm.iShowDiyWidth = (int)(this.ActualWidth * (_iShowDiyWidthRatio / 1000.0));
+            vm.iShowDiyHeight = (int)(this.ActualHeight * (_iShowDiyHeightRatio / 1000.0));
+            double hov = ((double)_diyHovPos / 500 * (this.ActualWidth - vm.iShowWidth));
+            double vec = ((double)_diyVerPos / 500.0 * (this.ActualHeight - vm.iShowHeight));
             _diythickness.Left = hov;
             _diythickness.Top = vec;
             vm.ShowDiyMargin = _diythickness;
@@ -294,8 +316,16 @@ namespace DefaultPluginModule
         private void SetPluginPosition()
         {
             UpdateDateTime();
-            double hov = ((double)_HovPos / 500 * (this.ActualWidth - plugInfo.ActualWidth)) ;
-            double vec = ((double)_VerPos / 500.0 * (this.ActualHeight - plugInfo.ActualHeight)) ;
+            //double hov = ((double)_HovPos / 500 * (this.ActualWidth - plugInfo.ActualWidth)) ;
+            //double vec = ((double)_VerPos / 500.0 * (this.ActualHeight - plugInfo.ActualHeight)) ;
+            //_thickness.Left = hov;
+            //_thickness.Top = vec;
+            //vm.ShowMargin = _thickness;
+
+            vm.iShowWidth = (int)(this.ActualWidth * (_iShowWidthRatio / 1000.0));
+            vm.iShowHeight = (int)(this.ActualHeight * (_iShowHeightRatio / 1000.0));
+            double hov = ((double)_HovPos / 500 * (this.ActualWidth - vm.iShowWidth));
+            double vec = ((double)_VerPos / 500.0 * (this.ActualHeight - vm.iShowHeight));
             _thickness.Left = hov;
             _thickness.Top = vec;
             vm.ShowMargin = _thickness;
@@ -307,17 +337,22 @@ namespace DefaultPluginModule
             bool updatePostion = false;
             switch (key)
             {
-                case "DiyHorizontalOffset":
+                case "zIndex":
                     {
-                        _diyHovPos = int.Parse(value);
-                        updatediyPostion = true;
-                        //vm.ShowMargin = _thickness;
+                        this.SetValue(Panel.ZIndexProperty, int.Parse(value));
                     }
                     break;
-                case "DiyVerticalOffset":
+
+                case "ShowWidthRatio":
                     {
-                        _diyVerPos = int.Parse(value);
-                        updatediyPostion = true;
+                        _iShowWidthRatio = int.Parse(value); 
+                        updatePostion = true;
+                    }
+                    break;
+                case "ShowHeightRatio":
+                    {
+                        _iShowHeightRatio = int.Parse(value);
+                        updatePostion = true;
                     }
                     break;
                 case "HorizontalOffset":
@@ -331,6 +366,31 @@ namespace DefaultPluginModule
                     {
                         _VerPos = int.Parse(value);
                         updatePostion = true;
+                    }
+                    break;
+                case "ShowDiyWidthRatio":
+                    {
+                        _iShowDiyWidthRatio = int.Parse(value);
+                        updatediyPostion = true;
+                    }
+                    break;
+                case "ShowDiyHeightRatio":
+                    {
+                        _iShowDiyHeightRatio = int.Parse(value);
+                        updatediyPostion = true;
+                    }
+                    break;
+                case "DiyHorizontalOffset":
+                    {
+                        _diyHovPos = int.Parse(value);
+                        updatediyPostion = true;
+                        //vm.ShowMargin = _thickness;
+                    }
+                    break;
+                case "DiyVerticalOffset":
+                    {
+                        _diyVerPos = int.Parse(value);
+                        updatediyPostion = true;
                     }
                     break;
                 case "ShowDiyText":
@@ -380,6 +440,16 @@ namespace DefaultPluginModule
                         TimeTxt.UpdateLayout();
                         plugInfo.UpdateLayout();
                         updatePostion = true;
+                    }
+                    break;
+                case "BackColor":
+                    {
+                        vm.backColor = value;
+                    }
+                    break;
+                case "DiyBackColor":
+                    {
+                        vm.diyBackColor = value;
                     }
                     break;
                 case "DiyFontColor":
@@ -648,8 +718,12 @@ namespace DefaultPluginModule
                     {
                         sCfgData = r.ReadToEnd();
                         _effectConfig = HYWEffectConfig.EffectConfigTool.EffectConfigParseString(sCfgData, _dllPath, "DefaultPluginModule_v1.0", _monitorIndex, 1);
-                        
-                        _effectConfig.LoadConfigPath(_defaultCfgPath);
+
+                        _effectConfig.SetConfigAction(OnConfigValueChange, RefreshEffect);
+                        if (!string.IsNullOrEmpty(_defaultCfgPath))
+                            _effectConfig.LoadConfigPath(_defaultCfgPath);
+                        else
+                            RefreshEffect();
 
                     }
                 }
@@ -658,7 +732,7 @@ namespace DefaultPluginModule
             catch { }
         }
         
-        private void RefreshEffect()
+        private void RefreshEffect(object obj = null)
         {
             
             foreach(var item in _effectConfig.items)

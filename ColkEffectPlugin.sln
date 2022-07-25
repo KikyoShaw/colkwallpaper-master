@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.1.32127.271
+VisualStudioVersion = 17.3.32611.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EffectModules", "EffectModules", "{A78BFF8A-4DDA-428F-BA20-88DAF16949C1}"
 EndProject
@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PluginModules", "PluginModu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightraysEffect", "EffectModules\LightraysEffect\LightraysEffect.csproj", "{E32F0396-AD70-4A59-B480-0F16641987A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleVisualizerPlugin", "PluginModules\CircleVisualizerPlugin\CircleVisualizerPlugin.csproj", "{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultPluginModule", "PluginModules\TimePluginModule\DefaultPluginModule.csproj", "{C0DEEFB8-A2DF-48C8-B38E-A8DFF851183D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherPluginModule", "PluginModules\WeatherPluginModule\WeatherPluginModule.csproj", "{FE309D88-AEE2-447D-967B-F984C71A0735}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RainingSimple", "EffectModules\RainingSimple\RainingSimple.csproj", "{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,18 +37,6 @@ Global
 		{E32F0396-AD70-4A59-B480-0F16641987A1}.Release|x64.Build.0 = Release|Any CPU
 		{E32F0396-AD70-4A59-B480-0F16641987A1}.Release|x86.ActiveCfg = Release|Any CPU
 		{E32F0396-AD70-4A59-B480-0F16641987A1}.Release|x86.Build.0 = Release|Any CPU
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}.Debug|x64.ActiveCfg = Debug|x64
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}.Debug|x64.Build.0 = Debug|x64
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}.Debug|x86.ActiveCfg = Debug|x86
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}.Debug|x86.Build.0 = Debug|x86
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}.Release|x64.ActiveCfg = Release|x64
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}.Release|x64.Build.0 = Release|x64
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}.Release|x86.ActiveCfg = Release|x86
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF}.Release|x86.Build.0 = Release|x86
 		{C0DEEFB8-A2DF-48C8-B38E-A8DFF851183D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C0DEEFB8-A2DF-48C8-B38E-A8DFF851183D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0DEEFB8-A2DF-48C8-B38E-A8DFF851183D}.Debug|x64.ActiveCfg = Debug|x64
@@ -73,15 +61,27 @@ Global
 		{FE309D88-AEE2-447D-967B-F984C71A0735}.Release|x64.Build.0 = Release|x64
 		{FE309D88-AEE2-447D-967B-F984C71A0735}.Release|x86.ActiveCfg = Release|x86
 		{FE309D88-AEE2-447D-967B-F984C71A0735}.Release|x86.Build.0 = Release|x86
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Debug|x64.Build.0 = Debug|Any CPU
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Debug|x86.Build.0 = Debug|Any CPU
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Release|x64.ActiveCfg = Release|Any CPU
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Release|x64.Build.0 = Release|Any CPU
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Release|x86.ActiveCfg = Release|Any CPU
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E32F0396-AD70-4A59-B480-0F16641987A1} = {A78BFF8A-4DDA-428F-BA20-88DAF16949C1}
-		{B5D39625-F8B9-4458-B8C7-C5CD696AC2CF} = {42799FC3-6861-4C53-9040-867B09D86390}
 		{C0DEEFB8-A2DF-48C8-B38E-A8DFF851183D} = {42799FC3-6861-4C53-9040-867B09D86390}
 		{FE309D88-AEE2-447D-967B-F984C71A0735} = {42799FC3-6861-4C53-9040-867B09D86390}
+		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6} = {A78BFF8A-4DDA-428F-BA20-88DAF16949C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF19013C-1C2D-412C-B835-62357D566D2C}

@@ -53,6 +53,7 @@ namespace WeatherPluginModule
 
         public EffectView(int monitorIndex, string dllPath)
         {
+            InitializeCefSettings();
             _monitorIndex = monitorIndex;
             DataContext = vm = ViewModel.EffectViewModel.Instance;
             InitializeComponent();
@@ -63,7 +64,6 @@ namespace WeatherPluginModule
             _timer.Elapsed += OnTimer;
             //_timer.Start();
 
-            InitializeCefSettings();
             
             this.Loaded += EffectView_Loaded;
             this.Unloaded += EffectView_Unloaded;
@@ -224,6 +224,16 @@ namespace WeatherPluginModule
                     case "config": //打开配置
                         ShowConfig();
                         break;
+                    case "saveconfig": //打开配置
+                        {
+                            if (cfg.ContainsKey("path"))
+                            {
+                                HYWEffectConfig.EffectConfigTool.SaveConfig(_effectConfig);
+                                var path = cfg["path"].ToString();
+                                HYWEffectConfig.EffectConfigTool.SaveConfig(_effectConfig, path);
+                            }
+                        }
+                        break;
                     case "switch": //切换
                         {
                             if (cfg.ContainsKey("path"))
@@ -259,7 +269,7 @@ namespace WeatherPluginModule
             if (_configWindow == null)
             {
                 _configWindow = new EffectConfigModule.ConfigWindow();
-                _configWindow.actValueChange += OnConfigValueChange;
+                
                 _configWindow.SetDataContext(_effectConfig);
             }
             _configWindow.Closing += ((s, e) =>
@@ -432,8 +442,12 @@ namespace WeatherPluginModule
                     {
                         sCfgData = r.ReadToEnd();
                         _effectConfig = HYWEffectConfig.EffectConfigTool.EffectConfigParseString(sCfgData, _dllPath, "WeatherPluginModule_v1.0", _monitorIndex, 1);
-                        
-                        _effectConfig.LoadConfigPath(_defaultCfgPath);
+
+                        _effectConfig.SetConfigAction(OnConfigValueChange, RefreshEffect);
+                        if (!string.IsNullOrEmpty(_defaultCfgPath))
+                            _effectConfig.LoadConfigPath(_defaultCfgPath);
+                        else
+                            RefreshEffect();
 
                     }
                 }
@@ -442,7 +456,7 @@ namespace WeatherPluginModule
             catch { }
         }
         
-        private void RefreshEffect()
+        private void RefreshEffect(object obj = null)
         {
             
             foreach(var item in _effectConfig.items)

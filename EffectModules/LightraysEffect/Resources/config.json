@@ -17,6 +17,32 @@
       "UniformToFill"
     ]
   },
+  
+  "imgHue": {
+    "min": 0,
+    "max": 3600,
+    "tick": 1,
+    "text": "ImgHue(色彩)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "imgSat": {
+    "min": 0,
+    "max": 5000,
+    "tick": 1,
+    "text": "ImgSaturation(饱和度)",
+    "type": "slider",
+    "value": 1000
+  },
+  "imgLum": {
+    "min": -1000,
+    "max": 1000,
+    "tick": 1,
+    "text": "ImgLuminosity(光暗)",
+    "type": "slider",
+    "value": 0
+  },
 
   "speed": {
     "min": 1,
