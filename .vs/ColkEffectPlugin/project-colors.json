@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e32f0396-ad70-4a59-b480-0f16641987a1": {
+      "ProjectGuid": "e32f0396-ad70-4a59-b480-0f16641987a1",
+      "DisplayName": "LightraysEffect",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

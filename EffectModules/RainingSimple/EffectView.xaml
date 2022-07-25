@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="RainingSimpleEffect.EffectView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RainingSimpleEffect"
+             mc:Ignorable="d" UseLayoutRounding="True" SnapsToDevicePixels="True"
+             d:DesignHeight="300" d:DesignWidth="340">
+     <Grid >
+        <Grid.Background>
+            <VisualBrush x:Name="br" >
+                <VisualBrush.Visual>
+                    <Grid x:Name="Back" >
+                        <Grid.Background>
+                            <ImageBrush x:Name="ImgBk" RenderOptions.BitmapScalingMode="HighQuality"
+                                        ImageSource="/RainingSimpleEffect;Component/Resources/1.jpg" Stretch="UniformToFill"/>
+                        </Grid.Background>
+                    </Grid>
+                </VisualBrush.Visual>
+            </VisualBrush>
+        </Grid.Background>
+    </Grid>
+</UserControl>

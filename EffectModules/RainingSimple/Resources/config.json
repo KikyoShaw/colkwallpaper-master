@@ -1,0 +1,202 @@
+{
+  "title0": {
+    "type": "title",
+    "value": 0,
+    "text": "ImageOption(图片参数)"
+  },
+
+  "ImageBk": {
+    "value": "",
+    "filter": "*.jpg|*.png|*.bmp",
+    "text": "Image(文件选择)",
+    "type": "folderSelect"
+  },
+
+  "ImageStrength": {
+    "type": "dropdown",
+    "value": 3,
+    "text": "ImageStrength(图片拉伸模式)",
+    "items": [
+      "None",
+      "Fill",
+      "Uniform",
+      "UniformToFill"
+    ]
+  },
+
+  "imgHue": {
+    "min": 0,
+    "max": 3600,
+    "tick": 1,
+    "text": "ImgHue(图片色彩)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "imgSat": {
+    "min": 0,
+    "max": 5000,
+    "tick": 1,
+    "text": "ImgSaturation(图片饱和度)",
+    "type": "slider",
+    "value": 1400
+  },
+
+  "imgLum": {
+    "min": -1000,
+    "max": 1000,
+    "tick": 1,
+    "text": "ImgLuminosity(图片光暗)",
+    "type": "slider",
+    "value": 0
+  },
+
+
+  "title1": {
+    "type": "title",
+    "value": 0,
+    "text": "EffectOption(特效参数)"
+  },
+
+  "speed": {
+    "min": 1,
+    "max": 300,
+    "tick": 1,
+    "text": "速度",
+    "type": "slider",
+    "value": 10
+  },
+
+  "Direction": {
+    "type": "checkbox",
+    "value": false,
+    "text": "AboutReverse(左右反转)"
+  },
+
+
+  "colorTemperature": {
+    "type": "checkbox",
+    "value": false,
+    "text": "ColorTemperature(色温变化)"
+  },
+
+  "title3": {
+    "type": "title",
+    "value": 0,
+    "text": "BlurOption(模糊参数)"
+  },
+
+  "BlueRadius": {
+    "min": 0,
+    "max": 32,
+    "tick": 1,
+    "text": "Blur(图片模糊精度)",
+    "type": "slider",
+    "value": 32
+  },
+
+
+  "BlurPrecision": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "BlurPrecision(图片模糊系数)",
+    "type": "slider",
+    "value": 250
+  },
+
+
+  "title5": {
+    "type": "title",
+    "value": 0,
+    "text": "RainDropOption(雨点参数)"
+  },
+  
+  "dropRainZoom": {
+    "min": 0,
+    "max": 4000,
+    "tick": 1,
+    "text": "dropSize(雨点大小)",
+    "type": "slider",
+    "value": 2500
+  },
+
+  "dropSize": {
+    "min": 0,
+    "max": 2000,
+    "tick": 1,
+    "text": "dropDensity(雨点密度)",
+    "type": "slider",
+    "value": 400
+  },
+  "rainIntensity": {
+    "min": 10,
+    "max": 1000,
+    "tick": 1,
+    "text": "rainIntensity(雨点强度)",
+    "type": "slider",
+    "value": 750
+  },
+
+  "dropReflectX": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "dropReflect(雨点折射X)",
+    "type": "slider",
+    "value": 30
+  },
+
+
+  "dropReflectY": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "dropReflect(雨点折射Y)",
+    "type": "slider",
+    "value": 0
+  },
+
+
+
+  "title6": {
+    "type": "title",
+    "value": 0,
+    "text": "lightningOption(闪电参数)"
+  },
+
+
+  "lightningLevel": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "lightningLevel(闪电时长)",
+    "type": "slider",
+    "value": 0
+  },
+
+
+  "title7": {
+    "type": "title",
+    "value": 0,
+    "text": "Zoom(放大跟随鼠标移动)"
+  },
+
+  "ZoomEffectMove": {
+    "min": 0,
+    "max": 500,
+    "tick": 1,
+    "text": "ZoomEffect(放大特效倍数)",
+    "type": "slider",
+    "value": 80
+  },
+
+  "ZoomImageMove": {
+    "min": 0,
+    "max": 500,
+    "tick": 1,
+    "text": "ZoomImage(放大图片倍数)",
+    "type": "slider",
+    "value": 40
+  }
+}

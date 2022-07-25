@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>RainingSimpleEffect</AssemblyName>
+    <RootNamespace>RainingSimpleEffect</RootNamespace>
+  </PropertyGroup>
+
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\bin\Release\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\1.jpg" />
+    <None Remove="Resources\config.json" />
+    <None Remove="Resources\Effect\HueBlursEffect.ps" />
+    <None Remove="Resources\Effect\RainingSimple.ps" />
+    <None Remove="Resources\noise.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EffectConfigModule">
+      <HintPath>..\..\bin\Assemblies\EffectConfigModule.dll</HintPath>
+    </Reference>  
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Resource Include="Resources\1.jpg" />
+    <Resource Include="Resources\config.json" />
+    <Resource Include="Resources\Effect\HueBlursEffect.ps" />
+    <Resource Include="Resources\Effect\RainingSimple.ps" />
+    <Resource Include="Resources\noise.jpg" />
+  </ItemGroup>
+  <ProjectExtensions><VisualStudio><UserProperties resources_4config_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)EffectModule.dll&quot;" />
+  </Target>
+</Project>
