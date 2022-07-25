@@ -9,6 +9,9 @@ gitee链接：https://gitee.com/qqrock/colkwallpaper
 
 b站教学：https://www.bilibili.com/video/BV1q44y1H7nh?spm_id_from=333.999.0.0
 
+youtube：https://www.youtube.com/watch?v=g8PBgHHiCl8
+youtube：https://www.youtube.com/watch?v=1I3vL-USVbM&t=17s
+
 ## 效果图
 #### 原生特效
 ![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/1.png)
