@@ -13,6 +13,9 @@ youtube：https://www.youtube.com/watch?v=g8PBgHHiCl8
 
 youtube：https://www.youtube.com/watch?v=1I3vL-USVbM&t=17s
 
+####更多特效获取&&问题反馈
+QQ群：982074420
+
 ## 效果图
 #### 原生特效
 ![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/1.png)
