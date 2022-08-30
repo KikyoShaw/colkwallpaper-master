@@ -31,3 +31,7 @@ $RECYCLE.BIN/
 /EffectModules/RippleEffect/obj
 /PluginModules/CircleVisualizerPlugin/obj
 /PluginModules/bin
+/EffectModules/bin
+/PluginModules/TimePluginModule/obj
+/PluginModules/WeatherPluginModule/obj
+/EffectModules/LightraysEffect/Properties
