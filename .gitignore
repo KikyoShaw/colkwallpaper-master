@@ -22,3 +22,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/bin/Debug
+/bin/Release
+/.vs
+/EffectModules/LightraysEffect/obj
+/EffectModules/RainingSimple/obj
+/EffectModules/RippleEffect/obj
+/EffectModules/RippleEffect/obj
+/PluginModules/CircleVisualizerPlugin/obj
+/PluginModules/bin
