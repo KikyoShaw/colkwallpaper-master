@@ -17,6 +17,10 @@ youtube：https://www.youtube.com/watch?v=1I3vL-USVbM&t=17s
 
 QQ群：982074420
 
+#### 特效仓库
+
+https://github.com/KikyoShaw/NewEffectPackage-dll
+
 ## 效果图
 #### 原生特效
 ![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/1.png)
