@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherPluginModule", "Plug
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RainingSimple", "EffectModules\RainingSimple\RainingSimple.csproj", "{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebpGifPluginModule", "PluginModules\WebpGifPluginModule\WebpGifPluginModule.csproj", "{B3407520-E1F3-4283-A9D9-3E668B87C0FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,18 @@ Global
 		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Release|x64.Build.0 = Release|Any CPU
 		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Release|x86.ActiveCfg = Release|Any CPU
 		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6}.Release|x86.Build.0 = Release|Any CPU
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB}.Debug|x64.Build.0 = Debug|Any CPU
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB}.Debug|x86.Build.0 = Debug|Any CPU
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB}.Release|x64.ActiveCfg = Release|Any CPU
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB}.Release|x64.Build.0 = Release|Any CPU
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB}.Release|x86.ActiveCfg = Release|Any CPU
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +96,7 @@ Global
 		{C0DEEFB8-A2DF-48C8-B38E-A8DFF851183D} = {42799FC3-6861-4C53-9040-867B09D86390}
 		{FE309D88-AEE2-447D-967B-F984C71A0735} = {42799FC3-6861-4C53-9040-867B09D86390}
 		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6} = {A78BFF8A-4DDA-428F-BA20-88DAF16949C1}
+		{B3407520-E1F3-4283-A9D9-3E668B87C0FB} = {42799FC3-6861-4C53-9040-867B09D86390}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF19013C-1C2D-412C-B835-62357D566D2C}
