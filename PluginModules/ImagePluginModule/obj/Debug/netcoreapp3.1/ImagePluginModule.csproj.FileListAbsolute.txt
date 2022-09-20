@@ -1,0 +1,15 @@
+E:\shaw\demo\colkwallpaper-master\PluginModules\ImagePluginModule\obj\Debug\netcoreapp3.1\ImagePluginModule.csproj.AssemblyReference.cache
+E:\shaw\demo\colkwallpaper-master\PluginModules\ImagePluginModule\obj\Debug\netcoreapp3.1\EffectView.g.cs
+E:\shaw\demo\colkwallpaper-master\PluginModules\ImagePluginModule\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+E:\shaw\demo\colkwallpaper-master\PluginModules\ImagePluginModule\obj\Debug\netcoreapp3.1\ImagePluginModule_MarkupCompile.cache
+E:\shaw\demo\colkwallpaper-master\PluginModules\ImagePluginModule\obj\Debug\netcoreapp3.1\ImagePluginModule_MarkupCompile.lref
+E:\shaw\demo\colkwallpaper-master\PluginModules\bin\Debug\netcoreapp3.1\ImagePluginModule.deps.json
+E:\shaw\demo\colkwallpaper-master\PluginModules\bin\Debug\netcoreapp3.1\ImagePluginModule.dll
+E:\shaw\demo\colkwallpaper-master\PluginModules\bin\Debug\netcoreapp3.1\ImagePluginModule.pdb
+E:\shaw\demo\colkwallpaper-master\PluginModules\ImagePluginModule\obj\Debug\netcoreapp3.1\EffectView.baml
+E:\shaw\demo\colkwallpaper-master\PluginModules\ImagePluginModule\obj\Debug\netcoreapp3.1\ImagePluginModule.g.resources
+E:\shaw\demo\colkwallpaper-master\PluginModules\ImagePluginModule\obj\Debug\netcoreapp3.1\ImagePluginModule.GeneratedMSBuildEditorConfig.editorconfig
+E:\shaw\demo\colkwallpaper-master\PluginModules\ImagePluginModule\obj\Debug\netcoreapp3.1\ImagePluginModule.csproj.CoreCompileInputs.cache
+E:\shaw\demo\colkwallpaper-master\PluginModules\ImagePluginModule\obj\Debug\netcoreapp3.1\ImagePluginModule.csproj.CopyComplete
+E:\shaw\demo\colkwallpaper-master\PluginModules\ImagePluginModule\obj\Debug\netcoreapp3.1\ImagePluginModule.dll
+E:\shaw\demo\colkwallpaper-master\PluginModules\ImagePluginModule\obj\Debug\netcoreapp3.1\ImagePluginModule.pdb

@@ -5,8 +5,8 @@
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <AssemblyName>DefaultPluginModule</AssemblyName>
-    <RootNamespace>DefaultPluginModule</RootNamespace>
+    <AssemblyName>ImagePluginModule</AssemblyName>
+    <RootNamespace>ImagePluginModule</RootNamespace>
     <Platforms>AnyCPU;x86;x64</Platforms>
   </PropertyGroup>
 
@@ -41,15 +41,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\1.png" />
+    <None Remove="Resources\ColorKeyAlphaHue.ps" />
     <None Remove="Resources\config.json" />
   </ItemGroup>
-
+  
   <ItemGroup>
     <Reference Include="EffectConfigModule">
+      <HintPath>..\..\bin\Debug\netcoreapp3.1\EffectConfigModule.dll</HintPath>
       <HintPath>..\..\bin\Debug\netcoreapp3.1\EffectConfigModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\1.png" />
+    <Resource Include="Resources\ColorKeyAlphaHue.ps" />
     <Resource Include="Resources\config.json" />
   </ItemGroup>
   <ProjectExtensions><VisualStudio><UserProperties resources_4config_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

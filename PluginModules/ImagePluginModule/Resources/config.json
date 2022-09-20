@@ -1,0 +1,423 @@
+{
+  "title01": {
+    "type": "title",
+    "value": 0,
+    "text": "ImagePlugin Setting[图片插件设置]"
+  },
+
+  "zIndex": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "zIndex(显示优先级)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "Image": {
+    "value": "",
+    "filter": "*.jpg|*.png|*.bmp",
+    "text": "Image(图片选择)",
+    "type": "folderSelect"
+  },
+
+  "ImageStrength": {
+    "type": "dropdown",
+    "value": 2,
+    "text": "ImageStrength(图片拉伸模式)",
+    "items": [
+      "None",
+      "Fill",
+      "Uniform",
+      "UniformToFill"
+    ]
+  },
+
+  "Direction": {
+    "type": "checkbox",
+    "value": false,
+    "text": "AboutReverse(左右反转)"
+  },
+
+  "UpDownReverse": {
+    "type": "checkbox",
+    "value": false,
+    "text": "UpDownReverse(上下反转)"
+  },
+
+  "title0": {
+    "type": "title",
+    "value": 0,
+    "text": "PostionSetting(位置大小设置)"
+  },
+
+
+  "HorizontalOffset": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "HorizontalOffset(水平偏移)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "VerticalOffset": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "VerticalOffset(垂直偏移)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "ShowWidthRatio": {
+    "min": 50,
+    "max": 1000,
+    "tick": 1,
+    "text": "ShowWidthRatio(显示宽度)",
+    "type": "slider",
+    "value": 250
+  },
+
+  "ShowHeightRatio": {
+    "min": 50,
+    "max": 1000,
+    "tick": 1,
+    "text": "ShowHeightRatio(显示高度)",
+    "type": "slider",
+    "value": 250
+  },
+  "ShowAngle": {
+    "min": 0,
+    "max": 360,
+    "tick": 1,
+    "text": "ShowAngle(显示角度)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "title2": {
+    "type": "title",
+    "value": 0,
+    "text": "Image Color Setting(图片颜色设置)"
+  },
+
+  "Hue": {
+    "min": 0,
+    "max": 3600,
+    "tick": 1,
+    "text": "Hue(色彩)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "Sat": {
+    "min": 0,
+    "max": 5000,
+    "tick": 1,
+    "text": "Saturation(饱和度)",
+    "type": "slider",
+    "value": 1000
+  },
+  "Lum": {
+    "min": -1000,
+    "max": 1000,
+    "tick": 1,
+    "text": "Luminosity(光暗)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "title3": {
+    "type": "title",
+    "value": 0,
+    "text": "FilterColor Setting(颜色过滤设置)"
+  },
+
+  "FilterColor": {
+    "text": "FilterColor(过滤颜色)",
+    "type": "color",
+    "value": "#000000"
+  },
+
+  "FilterTolerance": {
+    "min": 0,
+    "max": 2000,
+    "tick": 1,
+    "text": "FilterTolerance(过滤数值)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "Alpha": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "Alpha透明",
+    "type": "slider",
+    "value": 1000
+  },
+  "title5": {
+    "type": "title",
+    "value": 0,
+    "text": "blendMode(图片抖动)"
+  },
+
+  "Imgshake": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Imgshake(图片抖动)"
+  },
+
+  "shakeSpeed": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "shakeSpeed(抖动速度)",
+    "type": "slider",
+    "value": 35
+  },
+
+  "shakeRange": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "shakeRange(抖动幅度)",
+    "type": "slider",
+    "value": 14
+  },
+
+  "shakeSize": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "shakeSize(抖动数值)",
+    "type": "slider",
+    "value": 10
+  },
+
+  "title4": {
+    "type": "title",
+    "value": 0,
+    "text": "AlphaAnimation(透明度动画)"
+  },
+
+  "AlphaAnimation": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Power(透明度开关)"
+  },
+  "AlphaAnimationRangeBeg": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "RangeBegin(范围)",
+    "type": "slider",
+    "value": 500
+  },
+  "AlphaAnimationRangeEnd": {
+    "min": 10,
+    "max": 1000,
+    "tick": 1,
+    "text": "RangeEnd(范围)",
+    "type": "slider",
+    "value": 1000
+  },
+  "AlphaAnimationSpeed": {
+    "min": 1,
+    "max": 2000,
+    "tick": 1,
+    "text": "Speed(速度)",
+    "type": "slider",
+    "value": 500
+  },
+
+  "title6": {
+    "type": "title",
+    "value": 0,
+    "text": "HueAnimation(变色动画)"
+  },
+
+  "HueAnimation": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Power(变色动画开关)"
+  }, 
+  "HueContinuous": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Continuous(连续旋转动画)"
+  },
+  
+  "HueAnimationRangeBeg": {
+    "min": 0,
+    "max": 3600,
+    "tick": 1,
+    "text": "RangeBegin(范围开始)",
+    "type": "slider",
+    "value": 0
+  },
+  "HueAnimationRangeEnd": {
+    "min": 0,
+    "max": 3600,
+    "tick": 1,
+    "text": "RangeEnd(范围结束)",
+    "type": "slider",
+    "value": 3600
+  },
+  "HueAnimationSpeed": {
+    "min": 1,
+    "max": 2000,
+    "tick": 1,
+    "text": "Speed(速度)",
+    "type": "slider",
+    "value": 500
+  },
+
+  "title7": {
+    "type": "title",
+    "value": 0,
+    "text": "SizeAnimation(尺寸动画)"
+  },
+
+  "SizeAnimation": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Power(尺寸动画开关)"
+  },
+  "SizeAnimationRangeBeg": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "RangeBegin(动画范围)",
+    "type": "slider",
+    "value": 100
+  },
+  "SizeAnimationRangeEnd": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "RangeEnd(动画范围)",
+    "type": "slider",
+    "value": 400
+  },
+  "SizeAnimationSpeed": {
+    "min": 1,
+    "max": 2000,
+    "tick": 1,
+    "text": "Speed(速度)",
+    "type": "slider",
+    "value": 100
+  },
+  "title8": {
+    "type": "title",
+    "value": 0,
+    "text": "MoveXAnimation(X轴移动动画)"
+  },
+
+  "MoveXAnimation": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Power(尺寸动画开关)"
+  },
+  "MoveXAnimationRangeBeg": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "RangeBegin(动画范围)",
+    "type": "slider",
+    "value": -100
+  },
+  "MoveXAnimationRangeEnd": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "RangeEnd(动画范围)",
+    "type": "slider",
+    "value": 100
+  },
+  "MoveXAnimationSpeed": {
+    "min": 1,
+    "max": 2000,
+    "tick": 1,
+    "text": "Speed(速度)",
+    "type": "slider",
+    "value": 100
+  },
+  "title9": {
+    "type": "title",
+    "value": 0,
+    "text": "MoveYAnimation(Y轴移动动画)"
+  },
+
+  "MoveYAnimation": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Power(尺寸动画开关)"
+  },
+  "MoveYAnimationRangeBeg": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "RangeBegin(动画范围)",
+    "type": "slider",
+    "value": -100
+  },
+  "MoveYAnimationRangeEnd": {
+    "min": -500,
+    "max": 500,
+    "tick": 1,
+    "text": "RangeEnd(动画范围)",
+    "type": "slider",
+    "value": 100
+  },
+  "MoveYAnimationSpeed": {
+    "min": 1,
+    "max": 2000,
+    "tick": 1,
+    "text": "Speed(速度)",
+    "type": "slider",
+    "value": 100
+  },
+
+  "title10": {
+    "type": "title",
+    "value": 0,
+    "text": "RotateAnimation(旋转动画)"
+  },
+  "RotateAnimation": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Power(旋转动画开关)"
+  },
+  
+  "RotateContinuous": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Continuous(连续旋转动画)"
+  },
+  "RotateAnimationRangeBeg": {
+    "min": 0,
+    "max": 360,
+    "tick": 1,
+    "text": "RangeBegin(动画范围)",
+    "type": "slider",
+    "value": 0
+  },
+  "RotateAnimationRangeEnd": {
+    "min": 0,
+    "max": 360,
+    "tick": 1,
+    "text": "RangeEnd(动画范围)",
+    "type": "slider",
+    "value": 100
+  },
+  "RotateAnimationSpeed": {
+    "min": 1,
+    "max": 2000,
+    "tick": 1,
+    "text": "Speed(速度)",
+    "type": "slider",
+    "value": 100
+  },
+}

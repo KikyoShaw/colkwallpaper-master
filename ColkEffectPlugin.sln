@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RippleEffect", "EffectModul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimePluginModule", "PluginModules\TimePluginModule\TimePluginModule.csproj", "{CB167C5E-09F6-4AEA-BD5A-7A0F066AD514}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImagePluginModule", "PluginModules\ImagePluginModule\ImagePluginModule.csproj", "{393403C0-456C-4BDE-831E-3E922A72E004}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,18 @@ Global
 		{CB167C5E-09F6-4AEA-BD5A-7A0F066AD514}.Release|x64.Build.0 = Release|x64
 		{CB167C5E-09F6-4AEA-BD5A-7A0F066AD514}.Release|x86.ActiveCfg = Release|x86
 		{CB167C5E-09F6-4AEA-BD5A-7A0F066AD514}.Release|x86.Build.0 = Release|x86
+		{393403C0-456C-4BDE-831E-3E922A72E004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393403C0-456C-4BDE-831E-3E922A72E004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393403C0-456C-4BDE-831E-3E922A72E004}.Debug|x64.ActiveCfg = Debug|x64
+		{393403C0-456C-4BDE-831E-3E922A72E004}.Debug|x64.Build.0 = Debug|x64
+		{393403C0-456C-4BDE-831E-3E922A72E004}.Debug|x86.ActiveCfg = Debug|x86
+		{393403C0-456C-4BDE-831E-3E922A72E004}.Debug|x86.Build.0 = Debug|x86
+		{393403C0-456C-4BDE-831E-3E922A72E004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393403C0-456C-4BDE-831E-3E922A72E004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393403C0-456C-4BDE-831E-3E922A72E004}.Release|x64.ActiveCfg = Release|x64
+		{393403C0-456C-4BDE-831E-3E922A72E004}.Release|x64.Build.0 = Release|x64
+		{393403C0-456C-4BDE-831E-3E922A72E004}.Release|x86.ActiveCfg = Release|x86
+		{393403C0-456C-4BDE-831E-3E922A72E004}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +111,7 @@ Global
 		{7F32B85D-F3A0-44E4-80A0-DBCFD08BB3B6} = {A78BFF8A-4DDA-428F-BA20-88DAF16949C1}
 		{AEE013AA-35E4-40F0-9E7A-B1E41DD79060} = {A78BFF8A-4DDA-428F-BA20-88DAF16949C1}
 		{CB167C5E-09F6-4AEA-BD5A-7A0F066AD514} = {42799FC3-6861-4C53-9040-867B09D86390}
+		{393403C0-456C-4BDE-831E-3E922A72E004} = {42799FC3-6861-4C53-9040-867B09D86390}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF19013C-1C2D-412C-B835-62357D566D2C}
