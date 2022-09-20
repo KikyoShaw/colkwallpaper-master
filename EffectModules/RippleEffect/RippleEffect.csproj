@@ -23,20 +23,16 @@
   <ItemGroup>
     <None Remove="Resources\1.jpg" />
     <None Remove="Resources\config.json" />
-    <None Remove="Resources\Effect\DomainWarping.ps" />
-    <None Remove="Resources\Effect\Ripple.ps" />
-    <None Remove="Resources\Effect\RippleEffectModuleEffect.ps" />
     <None Remove="Resources\Effect\HueBlursEffect.ps" />
-    <None Remove="Resources\Effect\HueBlursEffectEffect.ps" />
-    <None Remove="Resources\Effect\SimpleSnow.ps" />
-    <None Remove="Resources\Effect\RippleEffectModuleEffect.ps" />
-    <None Remove="Resources\Effect\RippleEffectModuleEffect.ps" />
-    <None Remove="Resources\Effect\RippleEffectModule.ps" />
+    <None Remove="Resources\Effect\Ripple.ps" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\EffectConfigModule\EffectConfigModule.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<Reference Include="EffectConfigModule">
+			<HintPath>..\..\bin\Assemblies\EffectConfigModule.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
   <ItemGroup>
     <Resource Include="Resources\1.jpg" />
     <Resource Include="Resources\config.json" />
@@ -46,6 +42,6 @@
   <ProjectExtensions><VisualStudio><UserProperties resources_4config_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)RippleEffectModule.dll&quot;&#xD;&#xA;copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)EffectModule.dll&quot;" />
+	  <Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)EffectModule.dll&quot;" />
   </Target>
 </Project>

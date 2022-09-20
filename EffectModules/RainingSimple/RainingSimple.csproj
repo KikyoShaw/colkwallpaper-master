@@ -42,6 +42,6 @@
   <ProjectExtensions><VisualStudio><UserProperties resources_4config_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)EffectModule.dll&quot;" />
+    <Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)EffectModule.dll&quot;"/>
   </Target>
 </Project>

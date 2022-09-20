@@ -389,7 +389,7 @@ namespace LightraysEffect
                     break;
                 case "color":
                     {
-                        _orgColor = (Color)ColorConverter.ConvertFromString(value);
+                        _orgColor = (Color)ColorConverter.ConvertFromString(value)!;
                         _effect.Color = _orgColor;
                         if(_bAutoChangeColor)
                         {
@@ -413,7 +413,7 @@ namespace LightraysEffect
                     break;
                 case "changeColor":
                     {
-                        Color crColor = (Color)ColorConverter.ConvertFromString(value);
+                        Color crColor = (Color)ColorConverter.ConvertFromString(value)!;
                         _chageColor = crColor;
                         if (_bAutoChangeColor)
                         {
@@ -506,12 +506,11 @@ namespace LightraysEffect
                 string str =$@"pack://application:,,,/LightraysEffect;Component/Resources/config.json";
 
 
-                string sCfgData = "";
-                using (Stream stream = Application.GetResourceStream(new Uri(str, UriKind.RelativeOrAbsolute)).Stream)
+                using (Stream stream = Application.GetResourceStream(new Uri(str, UriKind.RelativeOrAbsolute))?.Stream)
                 {
                     using (StreamReader r = new StreamReader((Stream)stream, Encoding.UTF8))
                     {
-                        sCfgData = r.ReadToEnd();
+                        var sCfgData = r.ReadToEnd();
                         _effectConfig = HYWEffectConfig.EffectConfigTool.EffectConfigParseString(sCfgData, _dllPath, "LightraysEffect_v1.0", _monitorIndex);
                         _effectConfig.SetConfigAction(OnConfigValueChange, RefreshEffect);
                         if (!string.IsNullOrEmpty(_defaultCfgPath))

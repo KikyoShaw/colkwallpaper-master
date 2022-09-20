@@ -46,8 +46,9 @@ namespace RippleEffectModule
         public HYWEffectConfig.EffectConfigInfo _effectConfig = new HYWEffectConfig.EffectConfigInfo();
         public BitmapImage _defaultImage = new BitmapImage(new Uri(@"pack://application:,,,/RippleEffectModule;Component/Resources/1.jpg"));
         public EffectConfigModule.ConfigWindow _configWindow = null;
+        public EffectConfigModule.SaveDesignWindow _saveDesignWindow = null;
         public IntPtr _ownHwnd = IntPtr.Zero;
-        MouseHookManager _mouseHook = MouseHookManager.Instance;
+        MouseHookEventObject _mouseHookObject = new MouseHookEventObject();
 
         public bool _bAutoHue = false;
         public bool _bAutoRefracton = false;
@@ -103,8 +104,6 @@ namespace RippleEffectModule
             this.SizeChanged += EffectView_SizeChanged;
 
 
-            _mouseHook.MouseUp += OnHookMouseUp;
-            _mouseHook.Start();
         }
 
         private void OnTimer(object sender, ElapsedEventArgs e)
@@ -136,8 +135,8 @@ namespace RippleEffectModule
             ScreenToClient(_ownHwnd, ref pt);
             pt.X = (int)(pt.X / _dpi);
             pt.Y = (int)(pt.Y / _dpi);
-            double x = (double)pt.X / Back.RenderSize.Width;
-            double y = (double)pt.Y / Back.RenderSize.Height;
+            double x = (double)pt.X / this.ActualWidth;
+            double y = (double)pt.Y / this.ActualHeight;
             int lParam = (int)((short)pt.X) | (int)((short)pt.Y << 16);
             if (x >= 0 && x <= 1 && y >= 0 && y <= 1)
             {
@@ -173,11 +172,12 @@ namespace RippleEffectModule
 
         private void Start()
         {
+
             if (!_start)
             {
                 _start = !_start;
                 _timer.Start();
-                //_mouseHook.Start();
+                _mouseHookObject.Start();
                 //CompositionTarget.Rendering += CompositionTarget_Rendering;
             }
         }
@@ -187,7 +187,7 @@ namespace RippleEffectModule
             {
                 _start = !_start;
                 _timer.Stop();
-                //_mouseHook.Stop();
+                _mouseHookObject.Stop();
                 //CompositionTarget.Rendering -= CompositionTarget_Rendering;
             }
         }
@@ -215,8 +215,8 @@ namespace RippleEffectModule
             {
                 if (cfg == null && cfg.Count == 0)
                     return;
-                string comand = cfg["command"].ToString();
-                switch (comand)
+                string command = cfg["command"].ToString();
+                switch (command)
                 {
                     case "init": //开始
                         {
@@ -224,14 +224,7 @@ namespace RippleEffectModule
                             {
                                 _defaultCfgPath = cfg["infos"].ToString();
                             }
-                            if (cfg.ContainsKey("dpi"))
-                            {
-                                _dpi = double.Parse(cfg["dpi"].ToString());
-                            }
-                            else
-                            {
-                                _dpi = GetDpiFromVisual(this);
-                            }
+                            _dpi = cfg.ContainsKey("dpi") ? double.Parse(cfg["dpi"].ToString() ?? string.Empty) : GetDpiFromVisual(this);
                             RefreshEffect();
                         }
                         break;
@@ -248,13 +241,43 @@ namespace RippleEffectModule
                     case "config": //打开配置
                         ShowConfig();
                         break;
+                    case "design": //打开配置
+                        ShowDesign();
+                        break;
                     case "switch": //切换
                         {
                             if (cfg.ContainsKey("path"))
                             {
-                                _defaultCfgPath = cfg["path"].ToString();
-                                _effectConfig.LoadConfigPath(_defaultCfgPath);
-                                RefreshEffect();
+                                string strPath = cfg["path"].ToString();
+
+                                if (!string.IsNullOrEmpty(strPath) && File.Exists(strPath))
+                                {
+                                    string ext = System.IO.Path.GetExtension(strPath);
+                                    if (ext.IndexOf("json", StringComparison.CurrentCultureIgnoreCase) != -1 ||
+                                        ext.IndexOf("cfg", StringComparison.CurrentCultureIgnoreCase) != -1)
+                                    {
+
+                                        _defaultCfgPath = strPath;
+                                        _effectConfig.LoadConfigPath(_defaultCfgPath);
+                                        RefreshEffect();
+                                    }
+                                    else if (ext.IndexOf("bmp", StringComparison.CurrentCultureIgnoreCase) != -1 ||
+                                        ext.IndexOf("png", StringComparison.CurrentCultureIgnoreCase) != -1 ||
+                                        ext.IndexOf("jpg", StringComparison.CurrentCultureIgnoreCase) != -1 ||
+                                        ext.IndexOf("jpeg", StringComparison.CurrentCultureIgnoreCase) != -1)
+                                    {
+                                        foreach (var item in _effectConfig.items)
+                                        {
+                                            if (string.Compare(item.key, "ImageBk", StringComparison.CurrentCultureIgnoreCase) == 0)
+                                            {
+                                                item.SetValue(strPath);
+                                                OnConfigValueChange("ImageBk", strPath);
+                                                HYWEffectConfig.EffectConfigTool.SaveConfig(_effectConfig);
+                                                break;
+                                            }
+                                        }
+                                    }
+                                }
                             }
                         }
                         break;
@@ -275,18 +298,59 @@ namespace RippleEffectModule
                 _configWindow.Close();
                 _configWindow = null;
             }
+            if (_saveDesignWindow != null)
+            {
+                _saveDesignWindow.Close();
+                _saveDesignWindow = null;
+            }
 
             if (_configWindow == null)
             {
-                _configWindow = new EffectConfigModule.ConfigWindow();
-                _configWindow.actValueChange += OnConfigValueChange;
+                _configWindow = new EffectConfigModule.ConfigWindow(this);
+                
                 _configWindow.SetDataContext(_effectConfig);
             }
             _configWindow.Closing += ((s, e) =>
             {
+                _configWindow = null;
             });
 
             _configWindow.Show();
+        }
+
+        private void ShowDesign()
+        {
+            if (_effectConfig == null || _effectConfig.items.Count == 0)
+            {
+                MessageBox.Show("此特效没设置选项");
+                return;
+            }
+
+            HYWEffectConfig.EffectConfigTool.SaveConfig(_effectConfig, _effectConfig.effectConfigPath);
+            if (_saveDesignWindow != null)
+            {
+                _saveDesignWindow.Close();
+                _saveDesignWindow = null;
+            }
+            if (_configWindow != null)
+            {
+                _configWindow.Close();
+                _configWindow = null;
+            }
+
+            if (_saveDesignWindow == null)
+            {
+                _saveDesignWindow = new EffectConfigModule.SaveDesignWindow(_effectConfig, this);
+                _saveDesignWindow.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+            }
+            _saveDesignWindow.Closing += ((s, e) =>
+            {
+                _saveDesignWindow = null;
+            });
+
+            _saveDesignWindow.Topmost = true;
+            _saveDesignWindow.Show();
+            
         }
 
         private void OnConfigValueChange(string key, string value)
@@ -310,11 +374,10 @@ namespace RippleEffectModule
                         }
 
                         {
-                            BitmapImage curImage = new BitmapImage(new Uri(@"pack://application:,,,/RippleEffectModule;Component/Resources/1.jpg"));
-                            //BitmapImage curImage = new BitmapImage(new Uri(value));
-                            if (curImage != null)
+
+                            if (_defaultImage != null)
                             {
-                                ImgBk.ImageSource = curImage;
+                                ImgBk.ImageSource = _defaultImage;
                             }
                         }
                         GC.Collect();
@@ -375,29 +438,28 @@ namespace RippleEffectModule
             {
                 _dpi = GetDpiFromVisual(this);
                 string str =$@"pack://application:,,,/RippleEffectModule;Component/Resources/config.json";
-                _ownHwnd = ((HwndSource)PresentationSource.FromVisual(this)).Handle;
+                _ownHwnd = (((HwndSource)PresentationSource.FromVisual(this))!).Handle;
 
-                string sCfgData = "";
-                using (Stream stream = Application.GetResourceStream(new Uri(str, UriKind.RelativeOrAbsolute)).Stream)
+                using (Stream stream = Application.GetResourceStream(new Uri(str, UriKind.RelativeOrAbsolute))?.Stream)
                 {
                     using (StreamReader r = new StreamReader((Stream)stream, Encoding.UTF8))
                     {
-                        sCfgData = r.ReadToEnd();
+                        var sCfgData = r.ReadToEnd();
                         _effectConfig = HYWEffectConfig.EffectConfigTool.EffectConfigParseString(sCfgData, _dllPath, "RippleEffectModule_v1.0", _monitorIndex);
-                        _effectConfig.LoadConfigPath(_defaultCfgPath);
-                        RefreshEffect();
+                        _effectConfig.SetConfigAction(OnConfigValueChange, RefreshEffect);
+                        if (!string.IsNullOrEmpty(_defaultCfgPath))
+                            _effectConfig.LoadConfigPath(_defaultCfgPath);
+                        else
+                            RefreshEffect();
                     }
                 }
 
-                //if (_effect != null)
-                //{
-                //    _effect.ResolutionX = this.ActualWidth;
-                //    _effect.ResolutionY = this.ActualHeight;
-                //}
+                _mouseHookObject.MouseUp += OnHookMouseUp;
+                _mouseHookObject.Start();
             }
             catch { }
         }
-        private void RefreshEffect()
+        private void RefreshEffect(object obj = null)
         {
             foreach(var item in _effectConfig.items)
             {

@@ -23,9 +23,7 @@
     <None Remove="Resources\config.json" />
     <None Remove="Resources\Effect\BrightBlursEffect.ps" />
     <None Remove="Resources\Effect\HueBlursEffect.ps" />
-    <None Remove="Resources\Effect\HueBlursEffectEffect.ps" />
     <None Remove="Resources\Effect\Lightrays.ps" />
-    <None Remove="Resources\Effect\SimpleSnow.ps" />
   </ItemGroup>
 
   <ItemGroup>
@@ -43,6 +41,6 @@
   <ProjectExtensions><VisualStudio><UserProperties resources_4config_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)LightraysEffect.dll&quot;&#xD;&#xA;copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)EffectModule.dll&quot;" />
+	  <Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)EffectModule.dll&quot;"/>
   </Target>
 </Project>
