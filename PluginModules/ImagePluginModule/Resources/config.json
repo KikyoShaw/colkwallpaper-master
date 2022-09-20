@@ -299,7 +299,7 @@
     "tick": 1,
     "text": "RangeEnd(动画范围)",
     "type": "slider",
-    "value": 400
+    "value": 200
   },
   "SizeAnimationSpeed": {
     "min": 1,

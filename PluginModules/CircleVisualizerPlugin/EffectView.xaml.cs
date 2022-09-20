@@ -138,6 +138,16 @@ namespace CircleVisualizerPlugin
                     case "config": //打开配置
                         ShowConfig();
                         break;
+                    case "saveconfig": //保存配置
+                    {
+                        if (cfg.ContainsKey("path"))
+                        {
+                            HYWEffectConfig.EffectConfigTool.SaveConfig(_effectConfig);
+                            var path = cfg["path"].ToString();
+                            HYWEffectConfig.EffectConfigTool.SaveConfig(_effectConfig, path);
+                        }
+                    }
+                        break;
                     case "switch": //切换
                         {
                             if (cfg.ContainsKey("path"))
@@ -173,7 +183,7 @@ namespace CircleVisualizerPlugin
             if (_configWindow == null)
             {
                 _configWindow = new EffectConfigModule.ConfigWindow();
-                _configWindow.actValueChange += OnConfigValueChange;
+
                 _configWindow.SetDataContext(_effectConfig);
             }
             _configWindow.Closing += ((s, e) =>
@@ -334,15 +344,18 @@ namespace CircleVisualizerPlugin
                 string str =$@"pack://application:,,,/CircleVisualizerPlugin;Component/Resources/config.json";
 
 
-                string sCfgData = "";
-                using (Stream stream = Application.GetResourceStream(new Uri(str, UriKind.RelativeOrAbsolute)).Stream)
+                using (Stream stream = Application.GetResourceStream(new Uri(str, UriKind.RelativeOrAbsolute))?.Stream)
                 {
                     using (StreamReader r = new StreamReader((Stream)stream, Encoding.UTF8))
                     {
-                        sCfgData = r.ReadToEnd();
+                        var sCfgData = r.ReadToEnd();
                         _effectConfig = HYWEffectConfig.EffectConfigTool.EffectConfigParseString(sCfgData, _dllPath, "CircleVisualizerPlugin_v1.0", _monitorIndex, 1);
-                        
-                        _effectConfig.LoadConfigPath(_defaultCfgPath);
+
+                        _effectConfig.SetConfigAction(OnConfigValueChange, RefreshEffect);
+                        if (!string.IsNullOrEmpty(_defaultCfgPath))
+                            _effectConfig.LoadConfigPath(_defaultCfgPath);
+                        else
+                            RefreshEffect();
 
                     }
                 }
@@ -351,7 +364,7 @@ namespace CircleVisualizerPlugin
             catch { }
         }
         
-        private void RefreshEffect()
+        private void RefreshEffect(object obj = null)
         {
             
             foreach(var item in _effectConfig.items)

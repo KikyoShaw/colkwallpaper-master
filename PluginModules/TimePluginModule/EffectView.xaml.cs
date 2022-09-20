@@ -711,12 +711,11 @@ namespace DefaultPluginModule
                 string str =$@"pack://application:,,,/DefaultPluginModule;Component/Resources/config.json";
 
 
-                string sCfgData = "";
-                using (Stream stream = Application.GetResourceStream(new Uri(str, UriKind.RelativeOrAbsolute)).Stream)
+                using (Stream stream = Application.GetResourceStream(new Uri(str, UriKind.RelativeOrAbsolute))?.Stream)
                 {
                     using (StreamReader r = new StreamReader((Stream)stream, Encoding.UTF8))
                     {
-                        sCfgData = r.ReadToEnd();
+                        var sCfgData = r.ReadToEnd();
                         _effectConfig = HYWEffectConfig.EffectConfigTool.EffectConfigParseString(sCfgData, _dllPath, "DefaultPluginModule_v1.0", _monitorIndex, 1);
 
                         _effectConfig.SetConfigAction(OnConfigValueChange, RefreshEffect);
