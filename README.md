@@ -21,6 +21,10 @@ QQ群：982074420
 
 https://github.com/KikyoShaw/NewEffectPackage-dll
 
+#### 动画插件仓库
+
+https://github.com/KikyoShaw/ImageAnimationTest
+
 ## 效果图
 #### 原生特效
 ![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/1.png)
