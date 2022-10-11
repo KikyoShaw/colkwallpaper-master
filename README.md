@@ -27,6 +27,7 @@ https://github.com/KikyoShaw/ImageAnimationTest
 
 #### web特效
 https://github.com/KikyoShaw/Cool-photo-album-html
+https://github.com/KikyoShaw/html-demo
 
 ## 效果图
 #### 原生特效
