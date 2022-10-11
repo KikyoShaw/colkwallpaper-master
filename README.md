@@ -25,6 +25,9 @@ https://github.com/KikyoShaw/NewEffectPackage-dll
 
 https://github.com/KikyoShaw/ImageAnimationTest
 
+#### web特效
+https://github.com/KikyoShaw/Cool-photo-album-html
+
 ## 效果图
 #### 原生特效
 ![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/1.png)
