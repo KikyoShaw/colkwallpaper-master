@@ -30,6 +30,10 @@ https://github.com/KikyoShaw/Cool-photo-album-html
 
 https://github.com/KikyoShaw/html-demo
 
+#### 视频素材解析下载工具
+
+https://github.com/KikyoShaw/videoGetWpf
+
 #### ffmpeg工具-用于处理素材
 
 https://github.com/KikyoShaw/FFmepgTools
