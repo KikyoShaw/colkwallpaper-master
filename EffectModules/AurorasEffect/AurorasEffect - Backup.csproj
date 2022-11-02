@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Effect\" />
+  </ItemGroup>
+
+</Project>

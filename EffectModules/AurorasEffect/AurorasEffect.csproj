@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	  <AssemblyName>AurorasEffect</AssemblyName>
+	  <RootNamespace>AurorasEffect</RootNamespace>
+  </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\bin\Debug\</OutputPath>
+		<PlatformTarget>x86</PlatformTarget>
+		<Optimize>false</Optimize>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>..\bin\Release\</OutputPath>
+		<PlatformTarget>x86</PlatformTarget>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\1.png" />
+    <None Remove="Resources\config.json" />
+    <None Remove="Resources\Effect\AurorasEffect.ps" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="EffectConfigModule">
+			<HintPath>..\..\bin\Assemblies\EffectConfigModule.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\1.png" />
+    <Resource Include="Resources\config.json" />
+    <Resource Include="Resources\Effect\AurorasEffect.ps" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="EffectView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties resources_4config_1json__JsonSchema="" />
+		</VisualStudio>
+	</ProjectExtensions>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)EffectModule.dll&quot;" />
+	</Target>
+
+</Project>
