@@ -30,6 +30,10 @@ https://github.com/KikyoShaw/Cool-photo-album-html
 
 https://github.com/KikyoShaw/html-demo
 
+#### ffmpeg工具-用于处理素材
+
+https://github.com/KikyoShaw/FFmepgTools
+
 ## 效果图
 #### 原生特效
 ![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/1.png)
