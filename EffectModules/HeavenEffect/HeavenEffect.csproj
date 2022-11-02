@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>HeavenEffect</AssemblyName>
+    <RootNamespace>HeavenEffect</RootNamespace>
+    <BaseOutputPath>bin\</BaseOutputPath>
+  </PropertyGroup>
+
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\bin\Release\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="EVRPresenter32.dll" />
+    <None Remove="Resources\1.jpg" />
+    <None Remove="Resources\config.json" />
+    <None Remove="Resources\Effect\ColorKeyAlphaEffect.ps" />
+    <None Remove="Resources\Effect\LightraysChromeKey.ps" />
+    <None Remove="Resources\vd.mp4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="EVRPresenter32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\vd.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="EffectConfigModule">
+			<HintPath>..\..\bin\Assemblies\EffectConfigModule.dll</HintPath>
+		</Reference>
+		<Reference Include="WPFMediaKitCore">
+			<HintPath>..\..\bin\Assemblies\WPFMediaKitCore.dll</HintPath>
+		</Reference>
+		<Reference Include="DirectShowLib-2005">
+			<HintPath>..\..\bin\Assemblies\DirectShowLib-2005.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	
+  <ItemGroup>
+    <Resource Include="Resources\1.jpg" />
+    <Resource Include="Resources\config.json" />
+    <Resource Include="Resources\Effect\ColorKeyAlphaEffect.ps" />
+    <Resource Include="Resources\Effect\LightraysChromeKey.ps" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties resources_4config_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)HeavenEffect.dll&quot;&#xD;&#xA;copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)EffectModule.dll&quot;" />
+  </Target>
+</Project>

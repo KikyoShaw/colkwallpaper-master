@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="HeavenEffect.EffectView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HeavenEffect"
+             xmlns:vt="clr-namespace:HeavenEffect.Convert"
+             xmlns:sharder="clr-namespace:HeavenEffect.SharderEffect"
+             xmlns:controls="clr-namespace:WPFMediaKitCore.DirectShow.Controls;assembly=WPFMediaKitCore"
+             mc:Ignorable="d" UseLayoutRounding="True" SnapsToDevicePixels="True"
+             d:DesignHeight="300" d:DesignWidth="340">
+    
+    <UserControl.Resources>
+        <vt:BoolToVisibleConvert x:Key="vtBoolVisable"/>
+    </UserControl.Resources>
+    <Grid >
+        <Grid.Background>
+            <VisualBrush x:Name="br">
+                <VisualBrush.Visual>
+                    <Grid x:Name="Back" >
+                        <Grid.Background>
+                            <ImageBrush x:Name="ImgBk" RenderOptions.BitmapScalingMode="HighQuality" 
+                                        ImageSource="/HeavenEffect;Component/Resources/1.jpg" Stretch="UniformToFill"/>
+                        </Grid.Background>
+                        <Grid.Effect>
+                            <sharder:LightraysChromeKey x:Name="Sharder">
+                                <sharder:LightraysChromeKey.Input1 >
+                                    <VisualBrush  RenderOptions.BitmapScalingMode="HighQuality">
+                                        <VisualBrush.Visual>
+                                            <Grid >
+                                                <MediaElement x:Name="VideoElement" LoadedBehavior="Manual" RenderOptions.BitmapScalingMode="HighQuality"
+                                                              Visibility="{Binding isHaveLavSplitter,Converter={StaticResource vtBoolVisable},ConverterParameter=-}"
+                                                              UnloadedBehavior="Stop" HorizontalAlignment="Left" 
+                                                              MediaEnded="VideoElement_MediaEnded" 
+                                                              MediaOpened="VideoElement_MediaOpened"
+                                                              MediaFailed="VideoElement_MediaFailed"/>
+                                                <controls:MediaUriElement x:Name="LavVideoElement" Loop="True" Volume="0"  
+                                                                          Visibility="{Binding isHaveLavSplitter,Converter={StaticResource vtBoolVisable}}"
+                                                                          MediaEnded= "MediaUriElement_MediaEnded" 
+                                                                          MediaOpened="MediaUriElement_MediaOpened"
+                                                                          MediaFailed="MediaUriElement_MediaFailed"
+                                                                          RenderOptions.BitmapScalingMode="HighQuality"/>
+                                            </Grid>
+
+
+                                        </VisualBrush.Visual>
+                                    </VisualBrush>
+                                </sharder:LightraysChromeKey.Input1>
+                            </sharder:LightraysChromeKey>
+                        </Grid.Effect>
+                    </Grid>
+                </VisualBrush.Visual>
+            </VisualBrush>
+        </Grid.Background>
+    </Grid>
+</UserControl>

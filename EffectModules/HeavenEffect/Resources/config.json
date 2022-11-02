@@ -1,0 +1,240 @@
+{
+  "title0": {
+    "type": "title",
+    "value": 0,
+    "text": "Image Color Setting(图片设置)"
+  },
+
+  "ImageBk": {
+    "value": "",
+    "filter": "*.jpg|*.png|*.bmp",
+    "text": "Image(文件选择)",
+    "type": "folderSelect"
+  },
+
+  "ImageStrength": {
+    "type": "dropdown",
+    "value": 3,
+    "text": "ImageStrength(图片拉伸模式)",
+    "items": [
+      "None",
+      "Fill",
+      "Uniform",
+      "UniformToFill"
+    ]
+  },  
+  
+  "title2": {
+    "type": "title",
+    "value": 0,
+    "text": "Image Color Setting(图片颜色设置)"
+  },
+
+  "imgHue": {
+    "min": 0,
+    "max": 3600,
+    "tick": 1,
+    "text": "ImgHue(色彩)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "imgSat": {
+    "min": 0,
+    "max": 5000,
+    "tick": 1,
+    "text": "ImgSaturation(饱和度)",
+    "type": "slider",
+    "value": 1000
+  },
+  "imgLum": {
+    "min": -1000,
+    "max": 1000,
+    "tick": 1,
+    "text": "ImgLuminosity(光暗)",
+    "type": "slider",
+    "value": 0
+  }, 
+  "ImgAlpha": {
+    "min": 0,
+    "max": 10000,
+    "tick": 1,
+    "text": "Alpha",
+    "type": "slider",
+    "value": 1000
+  },
+  
+  "ImgDirection": {
+    "type": "checkbox",
+    "value": false,
+    "text": "AboutReverse(左右反转)"
+  },
+
+  "ImgUpDownReverse": {
+    "type": "checkbox",
+    "value": false,
+    "text": "UpDownReverse(上下反转)"
+  },
+
+  "title1": {
+    "type": "title",
+    "value": 0,
+    "text": "EffectOption(羽特效参数)"
+  },
+
+  "EffHue": {
+    "min": 0,
+    "max": 3600,
+    "tick": 1,
+    "text": "Hue(色彩)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "EffSat": {
+    "min": 0,
+    "max": 5000,
+    "tick": 1,
+    "text": "Saturation(饱和度)",
+    "type": "slider",
+    "value": 1000
+  },
+
+  "EffLum": {
+    "min": -1000,
+    "max": 1000,
+    "tick": 1,
+    "text": "Luminosity(光暗)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "EffAlpha": {
+    "min": 0,
+    "max": 10000,
+    "tick": 1,
+    "text": "Alpha",
+    "type": "slider",
+    "value": 300
+  },
+
+  "EffectColor": {
+    "text": "Color(羽颜色)",
+    "type": "color",
+    "value": "#FFFFFF"
+  },
+
+  "AutoHue": {
+    "type": "checkbox",
+    "value": false,
+    "text": "AutoHue(特效自动变色)"
+  },
+
+  "Colours": {
+    "type": "checkbox",
+    "value": false,
+    "text": "colours(彩色化)"
+  },
+
+  "Direction": {
+    "type": "checkbox",
+    "value": false,
+    "text": "direction(方向)"
+  },
+
+  "UpDownReverse": {
+    "type": "checkbox",
+    "value": false,
+    "text": "UpDownReverse(上下反转)"
+  },
+  
+  "title3": {
+    "type": "title",
+    "value": 0,
+    "text": "Lightrays Setting(光线设置)"
+  },
+
+
+  "UseLightraysProperty": {
+    "type": "checkbox",
+    "value": true,
+    "text": "UseLightrays(使用光线)"
+  },
+
+
+  "speed": {
+    "min": 1,
+    "max": 100,
+    "tick": 1,
+    "text": "光线速度",
+    "type": "slider",
+    "value": 10
+  },
+
+  "LightraysColor": {   
+    "text": "LightraysColor(光线颜色)",
+    "type": "color",
+    "value": "#FFFFFF"
+  },
+   "LightraysHue": {
+    "min": 0,
+    "max": 3600,
+    "tick": 1,
+    "text": "Hue(色彩)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "LightraysSat": {
+    "min": 0,
+    "max": 5000,
+    "tick": 1,
+    "text": "Saturation(饱和度)",
+    "type": "slider",
+    "value": 1000
+  },
+
+  "LightraysLum": {
+    "min": -1000,
+    "max": 1000,
+    "tick": 1,
+    "text": "Luminosity(光暗)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "LightraysAlpha": {
+    "min": 0,
+    "max": 2000,
+    "tick": 1,
+    "text": "LightraysAlpha(光线透明度)",
+    "type": "slider",
+    "value": 1000
+  },
+
+  "LightraysDensity": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "LightraysDensity(光线密度)",
+    "type": "slider",
+    "value": 100
+  },
+
+  "LightraysOffX": {
+    "min": 1,
+    "max": 100,
+    "tick": 1,
+    "text": "LightraysOffX(光线纵坐标)",
+    "type": "slider",
+    "value": 50
+  },
+
+  
+  "LightraysUpDown": {
+    "type": "checkbox",
+    "value": false,
+    "text": "LightraysUpDown(上下翻转)"
+  }
+
+}
