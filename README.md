@@ -13,6 +13,8 @@ youtube：https://www.youtube.com/watch?v=g8PBgHHiCl8
 
 youtube：https://www.youtube.com/watch?v=1I3vL-USVbM&t=17s
 
+抖音：https://www.douyin.com/user/MS4wLjABAAAAqsU3RCbLlZUVyrMnWXr7IWv0SyPgGaelAkXaRLtc7bw
+
 #### 更多特效获取&&问题反馈
 
 QQ群：982074420
