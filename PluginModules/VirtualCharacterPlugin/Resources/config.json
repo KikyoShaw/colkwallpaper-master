@@ -1,0 +1,182 @@
+{
+  "title01": {
+    "type": "title",
+    "value": 0,
+    "text": "VirtualCharacterPlugin Setting[虚拟人物设置]"
+  },
+
+
+  "zIndex": {
+    "min": 0,
+    "max": 1000,
+    "tick": 1,
+    "text": "zIndex(显示优先级)",
+    "type": "slider",
+    "value": 0
+  },
+
+
+  "BackColor": {
+    "type": "color",
+    "text": "BackColor(背景颜色)",
+    "value": "#FF303030"
+  },
+  "BackOpacity": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "BackOpacity(透明度)",
+    "type": "slider",
+    "value": 100
+  },
+
+  "EdgeOpacity": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "EdgeOpacity(边缘透明)",
+    "type": "slider",
+    "value": 15
+  },
+
+
+  "HorizontalOffset": {
+    "min": -1200,
+    "max": 1200,
+    "tick": 1,
+    "text": "HorizontalOffset(水平偏移)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "VerticalOffset": {
+    "min": -1200,
+    "max": 1200,
+    "tick": 1,
+    "text": "VerticalOffset(垂直偏移)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "ShowRatio": {
+    "min": 500,
+    "max": 2000,
+    "tick": 1,
+    "text": "ShowRatio(显示比例)",
+    "type": "slider",
+    "value": 1000
+  },
+
+  "Opacity": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "Opacity(透明度)",
+    "type": "slider",
+    "value": 100
+  },
+
+  "title03": {
+    "type": "title",
+    "value": 0,
+    "text": "ColorSetting[颜色设置]"
+  },
+
+  "EffHue": {
+    "min": 0,
+    "max": 3600,
+    "tick": 1,
+    "text": "Hue(色彩)",
+    "type": "slider",
+    "value": 0
+  },
+
+  "EffSat": {
+    "min": 0,
+    "max": 5000,
+    "tick": 1,
+    "text": "Saturation(饱和度)",
+    "type": "slider",
+    "value": 1666
+  },
+
+  "EffLum": {
+    "min": -1000,
+    "max": 1000,
+    "tick": 1,
+    "text": "Luminosity(光暗)",
+    "type": "slider",
+    "value": 0
+  },  
+
+  /*"title3": {
+    "type": "title",
+    "value": 0,
+    "text": "Auto Change(自动变化)"
+  },
+  "AutoHue": {
+    "type": "checkbox",
+    "value": true,
+    "text": "AutoHue(特效自动变色)"
+  },
+  "AutoHueSpeed": {
+    "min": 1,
+    "max": 1000,
+    "tick": 1,
+    "text": "AutoHueSpeed(自动变色速度)",
+    "type": "slider",
+    "value": 500
+  },*/
+
+  "title2": {
+    "type": "title",
+    "value": 0,
+    "text": "ShadowOption(阴影参数)"
+  },
+
+
+  "UseShadow": {
+    "type": "checkbox",
+    "value": false,
+    "text": "UseShadow(使用阴影)"
+  },
+  "ShadowColor": {
+    "type": "color",
+    "text": "ShadowColor(阴影颜色)",
+    "value": "#FF000000"
+  },
+  "ShadowDirection": {
+    "min": 0,
+    "max": 360,
+    "tick": 1,
+    "text": "ShadowDirection(阴影方向)",
+    "type": "slider",
+    "value": 0
+  },
+  "ShadowDepth": {
+    "min": -10,
+    "max": 10,
+    "tick": 1,
+    "text": "ShadowDepth(阴影深度)",
+    "type": "slider",
+    "value": 3
+  },
+
+  "ShadowOpacity": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "ShadowOpacity(阴影透明度)",
+    "type": "slider",
+    "value": 100
+  },
+
+  "ShadowBlurRadius": {
+    "min": 0,
+    "max": 100,
+    "tick": 1,
+    "text": "ShadowBlurRadius(阴影模糊)",
+    "type": "slider",
+    "value": 5
+  }
+}
