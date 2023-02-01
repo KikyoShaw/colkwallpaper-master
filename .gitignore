@@ -38,3 +38,7 @@ $RECYCLE.BIN/
 /EffectModules/RippleEffect/Properties
 /other
 /PluginModules/ImagePluginModule/obj
+/PluginModules/VirtualLuMiPlugin/obj
+/PluginModules/VirtualCatPlugin/obj
+/PluginModules/RotationAlbumPlugin/obj
+/PluginModules/VirtualCharacterPlugin/obj
