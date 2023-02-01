@@ -1,0 +1,1033 @@
+[0930/173550.560:WARNING:resource_bundle.cc(1082)] unable to find resource: 20082
+[0930/173550.561:WARNING:resource_bundle.cc(1082)] unable to find resource: 20074
+[0930/173550.561:WARNING:resource_bundle.cc(1082)] unable to find resource: 19002
+[1123/101154.124:WARNING:resource_bundle.cc(1082)] unable to find resource: 20082
+[1123/101154.124:WARNING:resource_bundle.cc(1082)] unable to find resource: 20074
+[1123/101154.125:WARNING:resource_bundle.cc(1082)] unable to find resource: 19002
+[1123/101650.711:WARNING:resource_bundle.cc(1082)] unable to find resource: 20082
+[1123/101650.711:WARNING:resource_bundle.cc(1082)] unable to find resource: 20074
+[1123/101650.711:WARNING:resource_bundle.cc(1082)] unable to find resource: 19002
+[1123/174142.197:WARNING:resource_bundle.cc(1082)] unable to find resource: 20082
+[1123/174142.243:WARNING:resource_bundle.cc(1082)] unable to find resource: 20074
+[1123/174142.244:WARNING:resource_bundle.cc(1082)] unable to find resource: 19002
+[1123/174348.808:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://wabi-west-us-c-primary-api.analysis.windows.net/metadata/tenantsettings/properties' from origin 'https://app.powerbi.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://app.powerbi.com/view?r=eyJrIjoiOTY2ZjdlMmUtNzNjNi00OWM1LWJmMTQtYTY4YjI0MmYwMWY4IiwidCI6IjdlMTczODMxLThkZDYtNDlkZC1hY2Q1LTljZTY3ZmQ1ODM5MCIsImMiOjZ9 (0)
+[1123/174355.366:INFO:CONSOLE(0)] "Autofocus processing was blocked because a document already has a focused element.", source: https://app.powerbi.com/view?r=eyJrIjoiOTY2ZjdlMmUtNzNjNi00OWM1LWJmMTQtYTY4YjI0MmYwMWY4IiwidCI6IjdlMTczODMxLThkZDYtNDlkZC1hY2Q1LTljZTY3ZmQ1ODM5MCIsImMiOjZ9 (0)
+[1123/174359.703:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://wabi-west-us-c-primary-api.analysis.windows.net/metadata/tenantsettings/properties' from origin 'https://app.powerbi.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://app.powerbi.com/view?r=eyJrIjoiOTY2ZjdlMmUtNzNjNi00OWM1LWJmMTQtYTY4YjI0MmYwMWY4IiwidCI6IjdlMTczODMxLThkZDYtNDlkZC1hY2Q1LTljZTY3ZmQ1ODM5MCIsImMiOjZ9 (0)
+[1123/174402.667:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://wabi-west-us-c-primary-api.analysis.windows.net/metadata/tenantsettings/properties' from origin 'https://app.powerbi.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://app.powerbi.com/view?r=eyJrIjoiOTY2ZjdlMmUtNzNjNi00OWM1LWJmMTQtYTY4YjI0MmYwMWY4IiwidCI6IjdlMTczODMxLThkZDYtNDlkZC1hY2Q1LTljZTY3ZmQ1ODM5MCIsImMiOjZ9 (0)
+[1123/174402.715:INFO:CONSOLE(40)] "'window.webkitStorageInfo' is deprecated. Please use 'navigator.webkitTemporaryStorage' or 'navigator.webkitPersistentStorage' instead.", source:  (40)
+[1123/174406.835:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://wabi-west-us-c-primary-api.analysis.windows.net/metadata/tenantsettings/properties' from origin 'https://app.powerbi.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://app.powerbi.com/view?r=eyJrIjoiOTY2ZjdlMmUtNzNjNi00OWM1LWJmMTQtYTY4YjI0MmYwMWY4IiwidCI6IjdlMTczODMxLThkZDYtNDlkZC1hY2Q1LTljZTY3ZmQ1ODM5MCIsImMiOjZ9 (0)
+[1123/174415.003:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://wabi-west-us-c-primary-api.analysis.windows.net/metadata/tenantsettings/properties' from origin 'https://app.powerbi.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://app.powerbi.com/view?r=eyJrIjoiOTY2ZjdlMmUtNzNjNi00OWM1LWJmMTQtYTY4YjI0MmYwMWY4IiwidCI6IjdlMTczODMxLThkZDYtNDlkZC1hY2Q1LTljZTY3ZmQ1ODM5MCIsImMiOjZ9 (0)
+[1123/174431.187:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://wabi-west-us-c-primary-api.analysis.windows.net/metadata/tenantsettings/properties' from origin 'https://app.powerbi.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://app.powerbi.com/view?r=eyJrIjoiOTY2ZjdlMmUtNzNjNi00OWM1LWJmMTQtYTY4YjI0MmYwMWY4IiwidCI6IjdlMTczODMxLThkZDYtNDlkZC1hY2Q1LTljZTY3ZmQ1ODM5MCIsImMiOjZ9 (0)
+[0129/115210.267:ERROR:gpu_init.cc(457)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0129/141955.611:ERROR:gpu_init.cc(457)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0129/152137.430:ERROR:gpu_init.cc(457)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0129/153806.321:INFO:CONSOLE(536)] "THREE.WebGLRenderer 72", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/three.min.js (536)
+[0129/153806.376:INFO:CONSOLE(4)] "Particulate.js 0.3.2", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/app.min.js (4)
+[0129/153806.435:INFO:CONSOLE(3)] "Uncaught (in promise) NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/app.min.js (3)
+[0129/153806.726:INFO:CONSOLE(3)] "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'className')", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/app.min.js (3)
+[0129/153906.328:INFO:CONSOLE(536)] "THREE.WebGLRenderer 72", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/three.min.js (536)
+[0129/153906.381:INFO:CONSOLE(4)] "Particulate.js 0.3.2", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/app.min.js (4)
+[0129/153906.425:INFO:CONSOLE(3)] "Uncaught (in promise) NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/app.min.js (3)
+[0129/153906.697:INFO:CONSOLE(3)] "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'className')", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/app.min.js (3)
+[0129/154018.458:INFO:CONSOLE(536)] "THREE.WebGLRenderer 72", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/three.min.js (536)
+[0129/154018.506:INFO:CONSOLE(4)] "Particulate.js 0.3.2", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/app.min.js (4)
+[0129/154018.548:INFO:CONSOLE(3)] "Uncaught (in promise) NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/app.min.js (3)
+[0129/154018.797:INFO:CONSOLE(3)] "Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'className')", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/app.min.js (3)
+[0129/154539.878:INFO:CONSOLE(38)] "THREE.CanvasRenderer 71", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/CanvasRenderer.js (38)
+[0129/155933.205:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/155933.205:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/155933.205:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/155933.205:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/155933.206:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/155933.206:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/160228.772:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/160228.772:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/160228.772:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/160228.772:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/160228.773:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/160228.773:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/160654.257:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/160654.257:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/160654.257:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/160654.257:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/160654.257:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/160654.257:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161452.509:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161452.510:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161452.510:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161452.510:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161452.510:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161452.510:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161637.382:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161637.382:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161637.382:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161637.382:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161637.382:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161637.382:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/161836.171:ERROR:gpu_init.cc(457)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0129/162113.208:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/162113.208:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/162113.209:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/162113.209:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/162113.209:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/162113.209:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/165033.861:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/165033.878:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/165033.878:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/165033.878:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/165033.878:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/165033.879:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/171613.236:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/171613.237:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/171613.237:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/171613.237:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/171613.237:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/171613.237:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/174702.989:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/174702.989:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/174702.989:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/174702.990:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/174702.991:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/174702.991:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/174739.230:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/174739.230:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/174739.230:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/174739.231:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/174739.231:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0129/174739.231:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0130/154344.885:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0130/154345.167:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154345.167:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154345.167:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154345.167:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154345.167:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154345.167:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154345.843:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0130/154445.774:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0130/154445.860:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154445.860:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154445.860:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154445.860:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154445.860:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154445.860:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154445.909:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0130/154625.747:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0130/154626.014:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154626.014:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154626.014:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154626.014:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154626.014:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154626.014:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/154626.158:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0130/154824.746:ERROR:gpu_init.cc(457)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0130/160925.063:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0130/160925.228:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/160925.229:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/160925.229:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/160925.229:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/160925.229:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/160925.229:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/160925.285:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0130/161053.582:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0130/161053.706:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/161053.706:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/161053.706:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/161053.706:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/161053.706:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/161053.706:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/161053.760:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0130/161147.676:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0130/161147.769:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/161147.769:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/161147.770:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/161147.770:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/161147.770:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/161147.770:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/161147.823:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0130/161346.811:ERROR:gpu_init.cc(457)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0130/164417.114:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0130/164417.393:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/164417.393:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/164417.393:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/164417.393:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/164417.394:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/164417.394:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/164417.545:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0130/165117.927:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0130/165117.993:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/165117.993:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/165117.993:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/165117.993:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/165117.993:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/165117.994:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/165118.036:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0130/174716.694:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0130/174716.953:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/174716.953:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/174716.953:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/174716.953:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/174716.953:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/174716.953:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/174717.092:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0130/174921.927:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0130/174922.172:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/174922.172:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/174922.172:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/174922.172:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/174922.173:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/174922.173:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/174922.307:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0130/175227.943:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0130/175228.211:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/175228.211:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/175228.212:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/175228.212:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/175228.212:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/175228.212:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/175228.361:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0130/190111.287:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0130/190111.548:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/190111.548:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/190111.549:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/190111.549:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/190111.549:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/190111.549:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0130/190111.686:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0130/190318.536:ERROR:gpu_init.cc(457)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0131/092527.968:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/092528.213:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/092528.213:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/092528.213:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/092528.214:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/092528.214:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/092528.214:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/092528.321:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/092529.214:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read properties of undefined (reading '0')", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/093438.577:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/093438.806:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/093438.806:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/093438.806:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/093438.806:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/093438.806:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/093438.807:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/093438.924:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/094307.189:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/094307.415:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094307.415:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094307.415:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094307.416:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094307.416:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094307.416:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094307.533:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/094525.431:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/094525.658:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094525.659:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094525.659:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094525.659:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094525.659:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094525.659:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094525.771:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/094837.109:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/094837.328:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094837.328:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094837.328:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094837.329:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094837.329:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094837.329:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/094837.439:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/095018.456:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/095018.680:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095018.680:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095018.680:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095018.680:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095018.680:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095018.680:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095018.798:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/095501.449:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/095501.541:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095501.541:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095501.542:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095501.542:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095501.542:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095501.542:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095501.612:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/095952.039:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/095952.755:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095952.755:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095952.756:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095952.756:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095952.756:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095952.756:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/095952.872:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/100208.890:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/100209.053:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100209.053:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100209.053:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100209.053:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100209.053:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100209.053:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100209.115:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/100335.251:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/100335.378:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100335.378:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100335.378:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100335.378:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100335.378:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100335.378:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100335.438:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/100655.884:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/100656.018:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100656.018:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100656.018:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100656.018:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100656.018:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100656.018:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100656.199:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/100829.146:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/100829.366:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100829.366:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100829.366:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100829.366:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100829.366:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100829.366:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100829.684:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/100947.169:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/100947.394:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100947.394:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100947.394:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100947.394:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100947.394:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100947.394:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/100947.514:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/101130.485:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/101130.703:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/101130.703:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/101130.703:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/101130.704:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/101130.704:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/101130.704:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/101130.987:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/101316.296:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/101316.423:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/101316.423:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/101316.423:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/101316.423:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/101316.423:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/101316.423:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/101316.642:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/102250.029:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/102250.143:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/102250.143:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/102250.143:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/102250.143:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/102250.143:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/102250.143:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/102250.204:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/102614.493:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/102614.589:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/102614.589:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/102614.589:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/102614.589:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/102614.589:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/102614.590:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/102614.635:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/105047.480:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/105047.564:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/105047.564:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/105047.564:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/105047.564:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/105047.564:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/105047.565:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/105047.611:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/110408.730:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/110408.946:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/110408.946:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/110408.946:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/110408.946:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/110408.946:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/110408.946:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/110409.059:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/141148.273:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/141148.486:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/141148.486:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/141148.486:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/141148.486:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/141148.486:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/141148.486:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/141148.595:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/151226.908:INFO:CONSOLE(44)] "
+  く__,.ヘヽ.        /  ,ー､ 〉
+           ＼ ', !-─‐-i  /  /´
+           ／｀ｰ'       L/／｀ヽ､
+         /   ／,   /|   ,   ,       ',
+       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i
+        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |
+          !,/7 '0'     ´0iソ|    |
+          |.从"    _     ,,,, / |./    |
+          ﾚ'| i＞.､,,__  _,.イ /   .i   |
+            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
+              | |/i 〈|/   i  ,.ﾍ |  i  |
+             .|/ /  ｉ：    ﾍ!    ＼  |
+              kヽ>､ﾊ    _,.ﾍ､    /､!
+              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
+              ﾚ'ヽL__|___i,___,ンﾚ|ノ
+                  ﾄ-,/  |___./
+                  'ｰ'    !_,.:
+", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/src/autoload.js (44)
+[0131/151226.998:INFO:CONSOLE(1)] "Live2D %s 2.1.00_1", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/151226.998:INFO:CONSOLE(1)] "profile : Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/151226.998:INFO:CONSOLE(1)] "  [PROFILE_NAME] = Desktop", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/151226.999:INFO:CONSOLE(1)] "  [USE_ADJUST_TRANSLATION] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/151226.999:INFO:CONSOLE(1)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/151226.999:INFO:CONSOLE(1)] "  [EXPAND_W] = 2", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/live2d.min.js (1)
+[0131/151227.048:INFO:CONSOLE(5)] "%c ()=>{}", source: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.js (5)
+[0131/151326.085:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151326.085:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151326.086:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151326.086:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151326.086:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151326.086:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151545.267:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151545.268:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151545.268:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151545.268:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151545.268:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151545.268:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151632.407:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151632.407:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151632.407:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151632.408:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151632.408:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151632.409:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151730.653:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151730.653:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151730.653:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151730.654:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151730.655:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/151730.655:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/152241.494:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/152241.494:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/152241.494:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/152241.494:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/152241.495:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/152241.495:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0131/162438.926:INFO:CONSOLE(7)] "Uncaught TypeError: Cannot read properties of null (reading 'querySelector')", source: file:///E:/shaw/EffectProject/PluginModules/bin/Debug/netcoreapp3.1/Resources/html/js/index.js (7)
+[0131/170634.077:ERROR:gpu_init.cc(457)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0201/095527.959:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095527.959:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095527.959:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095527.959:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095527.960:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095527.960:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095713.675:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095713.675:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095713.676:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095713.676:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095713.676:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095713.676:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095849.137:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095849.137:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095849.138:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095849.138:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095849.138:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095849.138:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095904.763:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095904.763:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095904.763:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095904.763:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095904.764:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/095904.764:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100056.210:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100056.210:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100056.211:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100056.211:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100056.211:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100056.211:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100233.930:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100233.930:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100233.930:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100233.930:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100233.930:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100233.930:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100255.679:INFO:CONSOLE(2)] "Live2D %s 2.1.00_1", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100255.680:INFO:CONSOLE(2)] "profile : Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100255.680:INFO:CONSOLE(2)] "  [PROFILE_NAME] = Desktop", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100255.680:INFO:CONSOLE(2)] "  [USE_ADJUST_TRANSLATION] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100255.680:INFO:CONSOLE(2)] "  [USE_CACHED_POLYGON_IMAGE] = false", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
+[0201/100255.680:INFO:CONSOLE(2)] "  [EXPAND_W] = 2", source: https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.0.min.js (2)
