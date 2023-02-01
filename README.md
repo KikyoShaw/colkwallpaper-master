@@ -40,6 +40,10 @@ https://github.com/KikyoShaw/videoGetWpf
 
 https://github.com/KikyoShaw/FFmepgTools
 
+#### 虚拟形象动画插件
+
+https://github.com/stevenjoezhang/live2d-widget
+
 ## 效果图
 #### 原生特效
 ![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/1.png)
