@@ -44,27 +44,6 @@ https://github.com/KikyoShaw/FFmepgTools
 
 https://github.com/stevenjoezhang/live2d-widget
 
-## 效果图
-#### 原生特效
-![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/1.png)
-
-#### 原生特效设置
-![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/2.png)
-
-#### 视频特效
-![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/3.png)
-
-#### 网页特效
-![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/4.png)
-
-#### 壁纸下载
-![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/5.png)
-
-#### 壁纸设计
-![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/6.png)
-
-#### 壁纸插件
-![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/7.png)
 
 ## 软件架构
 软件架构说明
@@ -148,3 +127,25 @@ https://github.com/stevenjoezhang/live2d-widget
 #### 特技
 
 可以使用酷壁加载你自己开发的特效与插件
+
+## 效果图
+#### 原生特效
+![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/1.png)
+
+#### 原生特效设置
+![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/2.png)
+
+#### 视频特效
+![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/3.png)
+
+#### 网页特效
+![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/4.png)
+
+#### 壁纸下载
+![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/5.png)
+
+#### 壁纸设计
+![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/6.png)
+
+#### 壁纸插件
+![image](https://github.com/KikyoShaw/colkwallpaper-master/blob/master/Image/7.png)
