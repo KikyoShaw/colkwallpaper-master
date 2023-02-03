@@ -42,3 +42,7 @@ $RECYCLE.BIN/
 /PluginModules/VirtualCatPlugin/obj
 /PluginModules/RotationAlbumPlugin/obj
 /PluginModules/VirtualCharacterPlugin/obj
+/EffectModules/AurorasEffect/Properties/launchSettings.json
+/EffectModules/AurorasEffect/obj
+/EffectModules/HeavenEffect/Properties/launchSettings.json
+/EffectModules/HeavenEffect/obj
