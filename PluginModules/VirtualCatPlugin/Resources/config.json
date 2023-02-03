@@ -5,7 +5,6 @@
     "text": "VirtualCatPlugin Setting[虚拟猫设置]"
   },
 
-
   "zIndex": {
     "min": 0,
     "max": 1000,
@@ -15,12 +14,12 @@
     "value": 0
   },
 
-
   "BackColor": {
     "type": "color",
     "text": "BackColor(背景颜色)",
     "value": "#FF303030"
   },
+
   "BackOpacity": {
     "min": 0,
     "max": 100,
@@ -29,16 +28,6 @@
     "type": "slider",
     "value": 100
   },
-
-  "EdgeOpacity": {
-    "min": 0,
-    "max": 100,
-    "tick": 1,
-    "text": "EdgeOpacity(边缘透明)",
-    "type": "slider",
-    "value": 15
-  },
-
 
   "HorizontalOffset": {
     "min": -1200,

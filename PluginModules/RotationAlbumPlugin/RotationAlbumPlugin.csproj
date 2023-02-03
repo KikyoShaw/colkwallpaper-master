@@ -44,33 +44,6 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\config.json" />
-	  <None Remove="Resources\html\css\style.css" />
-	  <None Remove="Resources\html\img\01.png" />
-	  <None Remove="Resources\html\img\02.png" />
-	  <None Remove="Resources\html\img\03.png" />
-	  <None Remove="Resources\html\img\04.png" />
-	  <None Remove="Resources\html\img\05.png" />
-	  <None Remove="Resources\html\img\06.png" />
-	  <None Remove="Resources\html\img\1.jpg" />
-	  <None Remove="Resources\html\img\1.png" />
-	  <None Remove="Resources\html\img\10.jpg" />
-	  <None Remove="Resources\html\img\11.jpg" />
-	  <None Remove="Resources\html\img\12.jpg" />
-	  <None Remove="Resources\html\img\2.jpg" />
-	  <None Remove="Resources\html\img\2.png" />
-	  <None Remove="Resources\html\img\3.jpg" />
-	  <None Remove="Resources\html\img\3.png" />
-	  <None Remove="Resources\html\img\4.jpg" />
-	  <None Remove="Resources\html\img\4.png" />
-	  <None Remove="Resources\html\img\5.jpg" />
-	  <None Remove="Resources\html\img\5.png" />
-	  <None Remove="Resources\html\img\6.jpg" />
-	  <None Remove="Resources\html\img\6.png" />
-	  <None Remove="Resources\html\img\7.jpg" />
-	  <None Remove="Resources\html\img\8.jpg" />
-	  <None Remove="Resources\html\img\9.jpg" />
-	  <None Remove="Resources\html\index.html" />
-	  <None Remove="Resources\html\js\jquery.min.js" />
 	  <None Remove="Resources\LumAlpha.ps" />
 	</ItemGroup>
 

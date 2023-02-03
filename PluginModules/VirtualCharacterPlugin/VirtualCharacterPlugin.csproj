@@ -44,12 +44,6 @@
 	
 	<ItemGroup>
 	  <None Remove="Resources\config.json" />
-	  <None Remove="Resources\html\index.html" />
-	  <None Remove="Resources\html\src\autoload.js" />
-	  <None Remove="Resources\html\src\live2d.min.js" />
-	  <None Remove="Resources\html\src\waifu-tips.js" />
-	  <None Remove="Resources\html\src\waifu-tips.json" />
-	  <None Remove="Resources\html\src\waifu.css" />
 	  <None Remove="Resources\LumAlpha.ps" />
 	</ItemGroup>
 

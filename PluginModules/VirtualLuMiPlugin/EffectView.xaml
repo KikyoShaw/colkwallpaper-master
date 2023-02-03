@@ -24,7 +24,7 @@
             <Grid x:Name="Clock" Margin="0" Opacity="{Binding Opacity,Converter={StaticResource VtOpacity}}">
                 <cefSharpWpf:ChromiumWebBrowser x:Name="Browers">
                     <cefSharpWpf:ChromiumWebBrowser.Effect>
-                        <sharderEffect:LumAlpha x:Name="BrowerEffect" Alpha="0.2"/>
+                        <sharderEffect:LumAlpha x:Name="BrowerEffect"/>
                     </cefSharpWpf:ChromiumWebBrowser.Effect>
                 </cefSharpWpf:ChromiumWebBrowser>
             </Grid>

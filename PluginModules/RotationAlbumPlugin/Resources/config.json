@@ -15,12 +15,19 @@
     "value": 0
   },
 
+  "StocksList": {
+    "type": "list",
+    "text": "照片列表(可添加删除)",
+    "separator": ",",
+    "value": ""
+  },
 
   "BackColor": {
     "type": "color",
     "text": "BackColor(背景颜色)",
     "value": "#FF303030"
   },
+
   "BackOpacity": {
     "min": 0,
     "max": 100,
@@ -29,16 +36,6 @@
     "type": "slider",
     "value": 100
   },
-
-  "EdgeOpacity": {
-    "min": 0,
-    "max": 100,
-    "tick": 1,
-    "text": "EdgeOpacity(边缘透明)",
-    "type": "slider",
-    "value": 15
-  },
-
 
   "HorizontalOffset": {
     "min": -1200,
@@ -107,7 +104,7 @@
     "text": "Luminosity(光暗)",
     "type": "slider",
     "value": 0
-  },  
+  },
 
   /*"title3": {
     "type": "title",

@@ -13,7 +13,6 @@ namespace VirtualCharacterPlugin.Shader
         public static readonly DependencyProperty HueProperty = DependencyProperty.Register("Hue", typeof(double), typeof(LumAlpha), new UIPropertyMetadata(((double)(0D)), PixelShaderConstantCallback(0)));
         public static readonly DependencyProperty SaturationProperty = DependencyProperty.Register("Saturation", typeof(double), typeof(LumAlpha), new UIPropertyMetadata(((double)(1D)), PixelShaderConstantCallback(1)));
         public static readonly DependencyProperty LuminosityProperty = DependencyProperty.Register("Luminosity", typeof(double), typeof(LumAlpha), new UIPropertyMetadata(((double)(0D)), PixelShaderConstantCallback(2)));
-        public static readonly DependencyProperty AlphaProperty = DependencyProperty.Register("Alpha", typeof(double), typeof(LumAlpha), new UIPropertyMetadata(((double)(0.1D)), PixelShaderConstantCallback(3)));
         
         public LumAlpha()
         {
@@ -25,7 +24,6 @@ namespace VirtualCharacterPlugin.Shader
             this.UpdateShaderValue(HueProperty);
             this.UpdateShaderValue(SaturationProperty);
             this.UpdateShaderValue(LuminosityProperty);
-            this.UpdateShaderValue(AlphaProperty);
         }
 
         public Brush Input
@@ -55,11 +53,5 @@ namespace VirtualCharacterPlugin.Shader
             set => this.SetValue(LuminosityProperty, value);
         }
 
-        /// <summary>Alpha.</summary>
-        public double Alpha
-        {
-            get => ((double)(this.GetValue(AlphaProperty)));
-            set => this.SetValue(AlphaProperty, value);
-        }
     }
 }

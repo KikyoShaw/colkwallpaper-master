@@ -511,11 +511,11 @@ namespace VirtualCatPlugin
                         _shadowEffect.BlurRadius = double.Parse(value);
                     }
                     break;
-                case "EdgeOpacity":
-                    {
-                        BrowerEffect.Alpha = double.Parse(value) / 100.0;
-                    }
-                    break;
+                //case "EdgeOpacity":
+                //    {
+                //        BrowerEffect.Alpha = double.Parse(value) / 100.0;
+                //    }
+                //    break;
                 case "EffHue":
                     {
                         _curHue = (double)((int.Parse(value))) / 10.0;
