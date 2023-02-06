@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualLuMiPlugin", "Plugin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherPluginModule", "PluginModules\WeatherPluginModule\WeatherPluginModule.csproj", "{6BD58128-DC7C-452E-B777-5DE1D67EF076}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Earth3DPlugin", "PluginModules\Earth3DPlugin\Earth3DPlugin.csproj", "{5D13DFB6-BF54-4863-8EE7-C70C6086522A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -199,6 +201,18 @@ Global
 		{6BD58128-DC7C-452E-B777-5DE1D67EF076}.Release|x64.Build.0 = Release|x64
 		{6BD58128-DC7C-452E-B777-5DE1D67EF076}.Release|x86.ActiveCfg = Release|x86
 		{6BD58128-DC7C-452E-B777-5DE1D67EF076}.Release|x86.Build.0 = Release|x86
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Debug|x64.ActiveCfg = Debug|x64
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Debug|x64.Build.0 = Debug|x64
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Debug|x86.ActiveCfg = Debug|x86
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Debug|x86.Build.0 = Debug|x86
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Release|x64.ActiveCfg = Release|x64
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Release|x64.Build.0 = Release|x64
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Release|x86.ActiveCfg = Release|x86
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -217,6 +231,7 @@ Global
 		{7AB2143D-F97D-44E0-A67B-1FC4E470C9B2} = {42799FC3-6861-4C53-9040-867B09D86390}
 		{1832F307-EB8F-46F9-9FA4-0E7FE6F08AE6} = {42799FC3-6861-4C53-9040-867B09D86390}
 		{6BD58128-DC7C-452E-B777-5DE1D67EF076} = {42799FC3-6861-4C53-9040-867B09D86390}
+		{5D13DFB6-BF54-4863-8EE7-C70C6086522A} = {42799FC3-6861-4C53-9040-867B09D86390}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF19013C-1C2D-412C-B835-62357D566D2C}
