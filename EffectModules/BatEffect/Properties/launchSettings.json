@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "BatEffect": {
+      "commandName": "Project"
+    },
+    "配置文件 1": {
+      "commandName": "Executable",
+      "executablePath": "$(SolutionDir)bin\\Debug\\netcoreapp3.1\\ColkEffectClient.exe"
+    }
+  }
+}
