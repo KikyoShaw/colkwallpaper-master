@@ -527,7 +527,7 @@ namespace HeavenEffect
         {
             try
             {
-                string strResPath = $@"{System.IO.Path.GetDirectoryName(_dllPath)}\Resources\vd.mp4";
+                string strResPath = $@"{System.Environment.CurrentDirectory}\Resources\vd.mp4";
                 if (!vm.isHaveLavSplitter)
                 {
                     VideoElement.Stop();

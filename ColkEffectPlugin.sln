@@ -33,11 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualLuMiPlugin", "Plugin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherPluginModule", "PluginModules\WeatherPluginModule\WeatherPluginModule.csproj", "{6BD58128-DC7C-452E-B777-5DE1D67EF076}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Earth3DPlugin", "PluginModules\Earth3DPlugin\Earth3DPlugin.csproj", "{5D13DFB6-BF54-4863-8EE7-C70C6086522A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BatEffect", "EffectModules\BatEffect\BatEffect.csproj", "{D3A9B501-994F-4C85-9BDC-9FF26B4091D5}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CefTools", "CefTools\CefTools.shproj", "{31BA5515-E06D-4558-879C-83EF2A828343}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Earth3DPlugin", "PluginModules\Earth3DPlugin\Earth3DPlugin.csproj", "{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -205,18 +205,6 @@ Global
 		{6BD58128-DC7C-452E-B777-5DE1D67EF076}.Release|x64.Build.0 = Release|x64
 		{6BD58128-DC7C-452E-B777-5DE1D67EF076}.Release|x86.ActiveCfg = Release|x86
 		{6BD58128-DC7C-452E-B777-5DE1D67EF076}.Release|x86.Build.0 = Release|x86
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Debug|x64.ActiveCfg = Debug|x64
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Debug|x64.Build.0 = Debug|x64
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Debug|x86.ActiveCfg = Debug|x86
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Debug|x86.Build.0 = Debug|x86
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Release|x64.ActiveCfg = Release|x64
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Release|x64.Build.0 = Release|x64
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Release|x86.ActiveCfg = Release|x86
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A}.Release|x86.Build.0 = Release|x86
 		{D3A9B501-994F-4C85-9BDC-9FF26B4091D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3A9B501-994F-4C85-9BDC-9FF26B4091D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3A9B501-994F-4C85-9BDC-9FF26B4091D5}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -229,6 +217,18 @@ Global
 		{D3A9B501-994F-4C85-9BDC-9FF26B4091D5}.Release|x64.Build.0 = Release|Any CPU
 		{D3A9B501-994F-4C85-9BDC-9FF26B4091D5}.Release|x86.ActiveCfg = Release|Any CPU
 		{D3A9B501-994F-4C85-9BDC-9FF26B4091D5}.Release|x86.Build.0 = Release|Any CPU
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}.Debug|x64.ActiveCfg = Debug|x64
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}.Debug|x64.Build.0 = Debug|x64
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}.Debug|x86.ActiveCfg = Debug|x86
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}.Debug|x86.Build.0 = Debug|x86
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}.Release|x64.ActiveCfg = Release|x64
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}.Release|x64.Build.0 = Release|x64
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}.Release|x86.ActiveCfg = Release|x86
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -247,8 +247,8 @@ Global
 		{7AB2143D-F97D-44E0-A67B-1FC4E470C9B2} = {42799FC3-6861-4C53-9040-867B09D86390}
 		{1832F307-EB8F-46F9-9FA4-0E7FE6F08AE6} = {42799FC3-6861-4C53-9040-867B09D86390}
 		{6BD58128-DC7C-452E-B777-5DE1D67EF076} = {42799FC3-6861-4C53-9040-867B09D86390}
-		{5D13DFB6-BF54-4863-8EE7-C70C6086522A} = {42799FC3-6861-4C53-9040-867B09D86390}
 		{D3A9B501-994F-4C85-9BDC-9FF26B4091D5} = {A78BFF8A-4DDA-428F-BA20-88DAF16949C1}
+		{EF175C6A-7F92-4EB4-9A1D-B0930B0645BD} = {42799FC3-6861-4C53-9040-867B09D86390}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF19013C-1C2D-412C-B835-62357D566D2C}
@@ -257,8 +257,8 @@ Global
 		CefTools\CefTools.projitems*{1832f307-eb8f-46f9-9fa4-0e7fe6f08ae6}*SharedItemsImports = 5
 		CefTools\CefTools.projitems*{31ba5515-e06d-4558-879c-83ef2a828343}*SharedItemsImports = 13
 		CefTools\CefTools.projitems*{52c53788-51ba-4b4d-8a5b-c8fa4ffd8207}*SharedItemsImports = 5
-		CefTools\CefTools.projitems*{5d13dfb6-bf54-4863-8ee7-c70c6086522a}*SharedItemsImports = 5
 		CefTools\CefTools.projitems*{7ab2143d-f97d-44e0-a67b-1fc4e470c9b2}*SharedItemsImports = 5
 		CefTools\CefTools.projitems*{814a80d3-788c-424f-aa6d-9c1fc09d9034}*SharedItemsImports = 5
+		CefTools\CefTools.projitems*{ef175c6a-7f92-4eb4-9a1d-b0930b0645bd}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

@@ -80,7 +80,7 @@ namespace RotationAlbumPlugin
             _timer = new Timer(1000);
             _timer.Elapsed += OnTimer;
             //_timer.Start();
-            Address = $@"{System.IO.Path.GetDirectoryName(dllPath)}\Resources\html\index.html";
+            Address = $@"{System.Environment.CurrentDirectory}\Resources\html\index.html";
 
             InitializeCefSettings();
             

@@ -443,7 +443,7 @@ namespace BatEffect
         {
             try
             {
-                string strResPath = $@"{System.IO.Path.GetDirectoryName(_dllPath)}\Resources\1.mp4";
+                string strResPath = $@"{System.Environment.CurrentDirectory}\Resources\1.mp4";
                 if (!vm.isHaveLavSplitter)
                 {
                     VideoElement.Stop();

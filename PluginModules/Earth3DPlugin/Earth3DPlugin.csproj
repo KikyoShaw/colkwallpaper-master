@@ -42,16 +42,6 @@
 		<PlatformTarget>x86</PlatformTarget>
 	</PropertyGroup>
 
-	<ProjectExtensions>
-		<VisualStudio>
-			<UserProperties resources_4config_1json__JsonSchema="" />
-		</VisualStudio>
-	</ProjectExtensions>
-
-	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)DefaultPlugin.dll&quot;" />
-	</Target>
-
 	<ItemGroup>
 	  <None Remove="Resources\config.json" />
 	  <None Remove="Resources\html\css\base.css" />
@@ -103,12 +93,16 @@
 	  <Resource Include="Resources\LumAlpha.ps" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Page Update="EffectView.xaml">
-	    <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
-	    <SubType>Designer</SubType>
-	  </Page>
-	</ItemGroup>
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties resources_4config_1json__JsonSchema="" />
+		</VisualStudio>
+	</ProjectExtensions>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)DefaultPlugin.dll&quot;" />
+		<Exec Command="Xcopy /E/H/C/I /s /y &quot;$(TargetDir)Resources&quot;  &quot;$(SolutionDir)EffectModules\bin\Debug\netcoreapp3.1\Resources&quot;" />
+	</Target>
 
 	<Import Project="..\..\CefTools\CefTools.projitems" Label="Shared" />
 
