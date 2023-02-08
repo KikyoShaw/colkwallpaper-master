@@ -63,10 +63,6 @@ https://github.com/stevenjoezhang/live2d-widget
      1. 特效: copy  "$(TargetPath)"  "$(OutDir)EffectModule.dll"
 	 2. 插件: copy  "$(TargetPath)"  "$(OutDir)DefaultPlugin.dll"
 
-  5. 加载html插件需要注意
-     需要将html及其文件放在EffectModules\PluginModules\bin\Debug\netcoreapp3.1\Resources
-
-
 ## 特效开发完成打包说明
  1. 特效放入%appdata%\ColkWallpaper\Effect\{你的特效名}
  2. 需要3个文件: 
