@@ -15,11 +15,16 @@
     "value": 0
   },
 
-  "StocksList": {
-    "type": "list",
-    "text": "照片列表(可添加删除)",
-    "separator": ",",
-    "value": ""
+  "AlbumButton": {
+    "value": 0,
+    "text": "外层 | 选择图片，选择6张你想要上传的图片",
+    "type": "button"
+  },
+
+  "AlbumButton1": {
+    "value": 0,
+    "text": "内层 | 选择图片，选择6张你想要上传的图片",
+    "type": "button"
   },
 
   "BackColor": {

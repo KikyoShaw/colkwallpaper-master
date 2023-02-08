@@ -7,6 +7,7 @@
 	<AssemblyName>RotationAlbumPlugin</AssemblyName>
 	<RootNamespace>RotationAlbumPlugin</RootNamespace>
 	<Platforms>AnyCPU;x86;x64</Platforms>
+	<LangVersion>latest</LangVersion>
   </PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -43,8 +44,18 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\config.json" />
-	  <None Remove="Resources\LumAlpha.ps" />
+	  <None Remove="Resources\html\img\01.jpg" />
+	  <None Remove="Resources\html\img\02.jpg" />
+	  <None Remove="Resources\html\img\03.jpg" />
+	  <None Remove="Resources\html\img\04.jpg" />
+	  <None Remove="Resources\html\img\05.jpg" />
+	  <None Remove="Resources\html\img\06.jpg" />
+	  <None Remove="Resources\html\img\1.jpg" />
+	  <None Remove="Resources\html\img\2.jpg" />
+	  <None Remove="Resources\html\img\3.jpg" />
+	  <None Remove="Resources\html\img\4.jpg" />
+	  <None Remove="Resources\html\img\5.jpg" />
+	  <None Remove="Resources\html\img\6.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -62,79 +73,43 @@
 	  <Content Include="Resources\html\css\style.css">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
-	  <Content Include="Resources\html\index.html">
+	  <Content Include="Resources\html\img\01.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
-	  <Content Include="Resources\html\img\01.png">
+	  <Content Include="Resources\html\img\02.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
-	  <Content Include="Resources\html\img\02.png">
+	  <Content Include="Resources\html\img\03.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
-	  <Content Include="Resources\html\img\03.png">
+	  <Content Include="Resources\html\img\04.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
-	  <Content Include="Resources\html\img\04.png">
+	  <Content Include="Resources\html\img\05.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
-	  <Content Include="Resources\html\img\05.png">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
-	  <Content Include="Resources\html\img\06.png">
+	  <Content Include="Resources\html\img\06.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
 	  <Content Include="Resources\html\img\1.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
-	  <Content Include="Resources\html\img\1.png">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
-	  <Content Include="Resources\html\img\10.jpg">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
-	  <Content Include="Resources\html\img\11.jpg">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
-	  <Content Include="Resources\html\img\12.jpg">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
 	  <Content Include="Resources\html\img\2.jpg">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
-	  <Content Include="Resources\html\img\2.png">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
 	  <Content Include="Resources\html\img\3.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
-	  <Content Include="Resources\html\img\3.png">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
 	  <Content Include="Resources\html\img\4.jpg">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
-	  <Content Include="Resources\html\img\4.png">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
 	  <Content Include="Resources\html\img\5.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
-	  <Content Include="Resources\html\img\5.png">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
 	  <Content Include="Resources\html\img\6.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
-	  <Content Include="Resources\html\img\6.png">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
-	  <Content Include="Resources\html\img\7.jpg">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
-	  <Content Include="Resources\html\img\8.jpg">
-	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
-	  <Content Include="Resources\html\img\9.jpg">
+	  <Content Include="Resources\html\index.html">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
 	  <Content Include="Resources\html\js\jquery.min.js">
