@@ -93,4 +93,6 @@
 		<Exec Command="copy  &quot;$(TargetPath)&quot;  &quot;$(OutDir)DefaultPlugin.dll&quot;" />
 	</Target>
 
+	<Import Project="..\..\CefTools\CefTools.projitems" Label="Shared" />
+
 </Project>

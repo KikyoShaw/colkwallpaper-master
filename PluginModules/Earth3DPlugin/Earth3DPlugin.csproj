@@ -110,4 +110,6 @@
 	  </Page>
 	</ItemGroup>
 
+	<Import Project="..\..\CefTools\CefTools.projitems" Label="Shared" />
+
 </Project>

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Effects;
 using CefSharp;
 using CefSharp.Wpf;
+using CefTools;
 using EffectConfigModule.Help;
 using Timer = System.Timers.Timer;
 
@@ -23,61 +24,6 @@ namespace VirtualCharacterPlugin
     public class EffectConfigValue
     {
 
-    }
-
-    public class CefDisplayHandler : CefSharp.IDisplayHandler
-    {
-        public Action<int> CursorChangeEvnet;
-        public void OnAddressChanged(IWebBrowser chromiumWebBrowser, AddressChangedEventArgs addressChangedArgs)
-        {
-            return;
-        }
-
-        public bool OnAutoResize(IWebBrowser chromiumWebBrowser, IBrowser browser, CefSharp.Structs.Size newSize)
-        {
-            return false;
-        }
-
-        public bool OnConsoleMessage(IWebBrowser chromiumWebBrowser, ConsoleMessageEventArgs consoleMessageArgs)
-        {
-            return false;
-        }
-
-        public bool OnCursorChange(IWebBrowser chromiumWebBrowser, IBrowser browser, IntPtr cursor, CefSharp.Enums.CursorType type, CefSharp.Structs.CursorInfo customCursorInfo)
-        {
-            CursorChangeEvnet?.Invoke((int)type);
-            return false;
-        }
-
-        public void OnFaviconUrlChange(IWebBrowser chromiumWebBrowser, IBrowser browser, IList<string> urls)
-        {
-            return;
-        }
-
-        public void OnFullscreenModeChange(IWebBrowser chromiumWebBrowser, IBrowser browser, bool fullscreen)
-        {
-            return;
-        }
-
-        public void OnLoadingProgressChange(IWebBrowser chromiumWebBrowser, IBrowser browser, double progress)
-        {
-            return;
-        }
-
-        public void OnStatusMessage(IWebBrowser chromiumWebBrowser, StatusMessageEventArgs statusMessageArgs)
-        {
-            return;
-        }
-
-        public void OnTitleChanged(IWebBrowser chromiumWebBrowser, TitleChangedEventArgs titleChangedArgs)
-        {
-            return;
-        }
-
-        public bool OnTooltipChanged(IWebBrowser chromiumWebBrowser, ref string text)
-        {
-            return false;
-        }
     }
 
     public partial class EffectView :  UserControl
@@ -118,7 +64,7 @@ namespace VirtualCharacterPlugin
         Size _showSize = new Size(100, 100);
         Point _showPoint = new Point(0, 0);
         int _curZIndex = 0;
-        CefDisplayHandler _dh = null;
+        private CefDisplayHandler _dh = null;
         bool _bAutoHue = false;
         double _curHue = 0;
         public double _curAutoHueSpeed = 0.01;
