@@ -30,16 +30,6 @@
     "value": 100
   },
 
-  "EdgeOpacity": {
-    "min": 0,
-    "max": 100,
-    "tick": 1,
-    "text": "EdgeOpacity(边缘透明)",
-    "type": "slider",
-    "value": 15
-  },
-
-
   "HorizontalOffset": {
     "min": -1200,
     "max": 1200,
