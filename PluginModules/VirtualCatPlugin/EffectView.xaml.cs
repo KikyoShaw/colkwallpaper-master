@@ -432,6 +432,28 @@ namespace VirtualCatPlugin
                     Clock.Effect = _userShadow ? _shadowEffect : null;
                 }
                     break;
+                case "BlackCat":
+                {
+                    var result = bool.Parse(value);
+                    string _address = "";
+                    if (_address == Address)
+                        return;
+                    _address = result ? $@"{System.Environment.CurrentDirectory}\Resources\html\index1.html" : $@"{System.Environment.CurrentDirectory}\Resources\html\index.html";
+                    Address = _address;
+
+                    if (Cef.IsInitialized)
+                    {
+                        if (Browers.Visibility == Visibility.Visible)
+                            Browers.Visibility = Visibility.Collapsed;
+                        Browers.Load(Address);
+                        if (Browers.Visibility == Visibility.Collapsed)
+                        {
+                            System.Threading.Thread.Sleep(200);
+                            Browers.Visibility = Visibility.Visible;
+                        }
+                    }
+                }
+                    break;
                 case "ShadowColor":
                     {
                         _shadowEffect.Color = (Color)ColorConverter.ConvertFromString(value)!;

@@ -44,11 +44,15 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\config.json" />
+	  <None Remove="Resources\html\index1.html" />
 	  <None Remove="Resources\LumAlpha.ps" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <Content Include="Resources\html\index.html">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\html\index1.html">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </Content>
 	</ItemGroup>

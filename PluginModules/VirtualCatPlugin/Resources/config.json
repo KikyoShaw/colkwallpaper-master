@@ -14,6 +14,12 @@
     "value": 0
   },
 
+  "BlackCat": {
+    "type": "checkbox",
+    "value": false,
+    "text": "BlackCat(变成黑猫)"
+  },
+
   "BackColor": {
     "type": "color",
     "text": "BackColor(背景颜色)",
@@ -96,7 +102,7 @@
     "text": "Luminosity(光暗)",
     "type": "slider",
     "value": 0
-  },  
+  },
 
   /*"title3": {
     "type": "title",
@@ -129,11 +135,13 @@
     "value": false,
     "text": "UseShadow(使用阴影)"
   },
+
   "ShadowColor": {
     "type": "color",
     "text": "ShadowColor(阴影颜色)",
     "value": "#FF000000"
   },
+
   "ShadowDirection": {
     "min": 0,
     "max": 360,
