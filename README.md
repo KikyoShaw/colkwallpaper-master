@@ -9,7 +9,7 @@ gitee链接：https://gitee.com/qqrock/colkwallpaper
 
 b站视频介绍：https://space.bilibili.com/29085504?spm_id_from=333.788.0.0
 
-youtube：https://www.youtube.com/watch?v=g8PBgHHiCl8
+youtube：https://www.youtube.com/channel/UCYreiOapB_k66p5pnJAV_UQ
 
 youtube：https://www.youtube.com/watch?v=1I3vL-USVbM&t=17s
 
