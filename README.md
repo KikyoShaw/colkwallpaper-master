@@ -34,6 +34,10 @@ https://github.com/KikyoShaw/Cool-photo-album-html
 
 https://github.com/KikyoShaw/html-demo
 
+#### 第三方壁纸下载地址
+
+https://wallhaven.cc/
+
 #### 视频素材解析下载工具
 
 https://github.com/KikyoShaw/videoGetWpf
