@@ -5,8 +5,6 @@
 
 gitee链接：https://gitee.com/qqrock/colkwallpaper
 
-下载链接：https://colkwp.coding.net/s/e3cf1a2f-4e01-4076-9a7e-17f1467590a7
-
 b站视频介绍：https://space.bilibili.com/29085504?spm_id_from=333.788.0.0
 
 youtube：https://www.youtube.com/channel/UCYreiOapB_k66p5pnJAV_UQ
