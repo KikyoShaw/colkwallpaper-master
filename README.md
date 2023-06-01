@@ -15,7 +15,7 @@ youtube：https://www.youtube.com/watch?v=1I3vL-USVbM&t=17s
 
 #### 更多特效获取&&问题反馈&&想加入壁纸设计者
 
-QQ群：982074420
+QQ群：[982074420](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V18eR3alzHXcEse5SpcqsagTH0t5R72Q&authKey=p7QlzhSDxXDUTDO4AhEWlo3uyIdsuPKVMoLe6ZLcIkBeO0FjwnNsNEMcUQhx6za3&noverify=0&group_code=982074420)
 
 #### 特效仓库
 
