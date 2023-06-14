@@ -25,6 +25,9 @@ https://github.com/KikyoShaw/NewEffectPackage-dll
 
 https://gitee.com/qqrock/ColkDesign
 
+#### 插件仓库
+https://github.com/KikyoShaw/Plugin
+
 #### 动画插件仓库
 
 https://github.com/KikyoShaw/ImageAnimationTest
