@@ -19,7 +19,7 @@ QQ群：[982074420](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V18eR3alzHXcEse5Sp
 
 #### 特效仓库
 
-https://github.com/KikyoShaw/NewEffectPackage-dll
+https://github.com/KikyoShaw/Effect
 
 #### 创意工坊
 
